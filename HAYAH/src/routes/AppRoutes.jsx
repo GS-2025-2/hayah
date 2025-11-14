@@ -1,11 +1,12 @@
     import {createBrowserRouter} from 'react-router-dom'
     import App from '../App.jsx'
     import Home from '../pages/Home.jsx'
-    import About from '../pages/About.jsx'
-    import Candidatos from '../pages/Candidatos.jsx'
+    import Cadastro from '../pages/Cadastro.jsx'
+    import Candidaturas from '../pages/Candidaturas.jsx'
+    import Cursos from '../pages/Cursos.jsx'
+    import Login from '../pages/Login.jsx'
+    import Perfil from '../pages/Perfil.jsx'
     import Recrutador from '../pages/Recrutador.jsx'
-    import Vagas from '../pages/Vagas.jsx'
-
 
     export const router = createBrowserRouter([
     {
@@ -13,11 +14,12 @@
     element: <App />,
     children: [
       { index: true, element: <Home /> },
-      { path: "profile", element: <Profile /> },
-      { path: "about", element: <About /> },
-      { path: "candidatos", element: <Candidatos /> },
+      { path: "cadastro", element: <Cadastro /> },
+      { path: "candidaturas", element: <Candidaturas /> },
+      { path: 'cursos', element: <Cursos />},
+      { path: 'login', element: <Login />},
+      { path: "perfil", element: <Perfil /> },
       { path: 'recrutador', element: <Recrutador />},
-      { path: 'Vagas', element: <Vagas />},
     ],
     }
         ])
