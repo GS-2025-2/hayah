@@ -64,7 +64,9 @@ export default function NavBar() {
           </li>
 
           <li className="flex items-center gap-8">
-            <Link to="/cursos" className="hover:text-blue-500">Cursos</Link>
+            <Link to="/" >Propósito</Link>
+            <Link to="/cursos" className="hover:text-blue-500">Treinamentos</Link>
+            <Link to="/">Vagas</Link>
 
             {/* Ícone de perfil */}
             <Link
