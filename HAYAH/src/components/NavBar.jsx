@@ -30,49 +30,38 @@ export default function NavBar() {
   return (
     <nav
       aria-label="Main navigation"
-      className={`
-        w-full p-4 shadow-md fixed top-0 left-0 z-50
-        ${dark ? "bg-[#091c1a] text-white" : "bg-[#dfd4bf] text-black"}
-      `}
+      className="w-full p-4 shadow-md fixed top-0 left-0 z-50 bg-[#0a2e1a]"
+      style={{ color: '#dfd4bf' }}
     >
       <div className="flex justify-between items-center max-w-6xl mx-auto">
 
-    {/* Logo */}
+    {/* Logo sempre branco */}
     <Link to="/" className="flex items-center">
-      
-      {/* Logo modo claro */}
-      <img
-        src={logoWhite}
-        alt="Logo Hayah Light"
-        className="h-10 block dark:hidden"
-      />
-
-      {/* Logo modo escuro */}
       <img
         src={logoDark}
-        alt="Logo Hayah Dark"
-        className="h-10 hidden dark:block"
+        alt="Logo Hayah"
+        className="h-10"
+        style={{ filter: 'drop-shadow(0 1px 2px #0008)' }}
       />
-
     </Link>
 
 
         {/* Menu Desktop */}
         <ul className="flex gap-8 items-center">
           <li>
-            <Link to="/" className="hover:text-blue-500">Home</Link>
+            <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Home</Link>
           </li>
-
           <li className="flex items-center gap-8">
-            <Link to="/" >Propósito</Link>
-            <Link to="/cursos" className="hover:text-blue-500">Treinamentos</Link>
-            <Link to="/">Vagas</Link>
+            <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Propósito</Link>
+            <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Treinamentos</Link>
+            <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Vagas</Link>
 
             {/* Ícone de perfil */}
             <Link
               to="/perfil"
               aria-label="Perfil"
-              className=" text-gray-600 hover:text-blue-500 dark:text-gray-300"
+              style={{ color: '#dfd4bf' }}
+              className="hover:opacity-80"
             >
               <FaUser className="w-5 h-5" />
             </Link>
@@ -81,7 +70,8 @@ export default function NavBar() {
             <button
               onClick={() => setDark((d) => !d)}
               aria-label={dark ? "Ativar modo claro" : "Ativar modo escuro"}
-              className="ml-2 text-gray-600 hover:text-blue-500 dark:text-gray-300 p-1 rounded focus:outline-none focus:ring"
+              style={{ color: '#dfd4bf' }}
+              className="ml-2 p-1 rounded focus:outline-none focus:ring hover:opacity-80"
             >
               {dark ? (
                 <FaSun className="w-5 h-5" />
