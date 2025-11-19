@@ -1,5 +1,8 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+
+
 
 export default function LoginCandidato() {
   return (
@@ -72,9 +75,11 @@ export default function LoginCandidato() {
                        <h3 className="text-[#0a2e1a] dark:text-[#dfd4bf] font-medium text-font-[Istok Web]">
                         Não possui Login? 
                        </h3>
-                        <button className="mt-4 mx-auto border border-[#0a2e1a] text-[#0a2e1a] dark:border-[#4AF297] dark:text-[#4AF297] py-2 px-6 w-75 rounded-lg hover:bg-[#0a2e1a] houver:border-[#dfd4bf] hover:text-[#dfd4bf] dark:hover:border-[#3ebd8f] dark:hover:text-[#3ebd8f] transition shadow-xl" >
-                            Criar Conta
-                        </button>
+                    <Link to="/cadastro">
+                      <button className="mt-4 mx-auto border border-[#0a2e1a] text-[#0a2e1a] dark:border-[#4AF297] dark:text-[#4AF297] py-2 px-6 w-75 rounded-lg hover:bg-[#0a2e1a] houver:border-[#dfd4bf] hover:text-[#dfd4bf] dark:hover:border-[#3ebd8f] dark:hover:text-[#3ebd8f] transition shadow-xl">
+                        Criar Conta
+                      </button>
+                    </Link>
                 </div>
          </div>
         </div>
