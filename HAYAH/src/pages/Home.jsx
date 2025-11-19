@@ -1,10 +1,101 @@
 import Navbar from "../components/NavBar";
+import fotoEntrvista from "../assets/entrevistasHome.jpg";
+import fotoEquity from "../assets/equityProposito.jpg";
+// removed react-wavify; using simple sections with a beige rectangle between greens
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen bg-[#dfd4bf] dark:bg-[#0a2e1a] transition-colors duration-700 relative text-[#091c1a] dark:text-[#dfd4bf]">
       <Navbar />
 
+      {/* Top pale header area (matches Figma) */}
+      <header className="bg-[#e9e0d0]">
+        <div className="max-w-6xl mx-auto px-6 py-8 flex items-center justify-end">
+          <div className="flex items-center gap-4"></div>
+        </div>
+        <div className="h-1 bg-[#dfd4bf]" />
+      </header>
+
+      {/* Hero: left text + right video */}
+      <section className="max-w-6xl mx-auto px-6 pt-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+          <div>
+            <h1 className="text-4xl font-bold text-[#091c1a] dark:text-[#dfd4bf]">Encontre o profissional apenas pelas qualificações</h1>
+            <p className="mt-4 text-[#091c1a] dark:text-[#dfd4bf]">Converta o candidato a se inscrever na plataforma. Suba vagas e encontre talentos com critérios claros e inclusivos.</p>
+            <div className="mt-6 flex gap-3 items-center">
+              <input placeholder="Coloque seu e-mail corporativo" className="flex-1 p-3 rounded border border-[#cfc6b6] bg-white dark:bg-[#071912] text-[#091c1a] dark:text-[#dfd4bf] placeholder-[#6b6b6b] dark:placeholder-[#cfc6b6]" />
+              <button className="bg-[#091c1a] text-[#dfd4bf] dark:bg-[#dfd4bf] dark:text-[#091c1a] px-4 py-2 rounded">Enviar</button>
+            </div>
+          </div>
+
+          <div className="flex justify-center md:justify-end">
+            <div className="w-full max-w-md aspect-video bg-[#f3efe6] dark:bg-[#071716] rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
+              <div className="w-5/6 h-5/6 bg-black/80 rounded flex items-center justify-center">
+                <div className="text-white text-3xl">▶</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Two green full-bleed sections separated by a beige rectangle */}
+      <section className="mt-16">
+        {/* Top green area */}
+        <div className="bg-[#091c1a] text-[#dfd4bf]">
+          <div className="max-w-6xl mx-auto px-6 py-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div className="md:order-last">
+                <h2 className="text-3xl font-bold">Entrevistas totalmente as cegas</h2>
+                <p className="mt-4 leading-relaxed">
+                  Encontrar profissionais por qualificação e oportunidade, com
+                  foco em inclusão e acessibilidade. Trabalhamos para conectar
+                  talentos a oportunidades reais, com processos justos e
+                  transparentes.
+                </p>
+                <p className="mt-4">Saiba mais sobre como atuamos.</p>
+              </div>
+              <div className="flex justify-center md:justify-start md:order-first">
+                <div className="w-150 h-60 bg-white/5 rounded-lg flex items-center justify-center text-[#0a2e1a]">
+                  <img src={fotoEntrvista} alt="Diversidade e inclusão" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* Bottom green area */}
+        <div className="bg-[#dfd4bf] dark:bg-[#0a2e1a] text-[#091c1a] dark:text-[#dfd4bf]">
+          <div className="max-w-6xl mx-auto px-6 py-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+              <div>
+                <h2 className="text-3xl font-bold">Propósito</h2>
+                <p className="mt-4 leading-relaxed">
+                  Conteúdo complementar que segue a mesma identidade visual verde.
+                </p>
+              </div>
+              <div className="flex justify-center md:justify-end">
+                <div className="w-150 h-60 bg-white/5 rounded-lg flex items-center justify-center text-[#dfd4bf]">
+                  <img src={fotoEquity} alt="Equity" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      {/* Footer */}
+      <footer className="bg-[#091c1a] text-[#dfd4bf]">
+        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between gap-6">
+          <div>
+            <div className="font-bold">Contato</div>
+            <div className="text-sm">contato@hayah.com.br</div>
+          </div>
+          <div className="text-sm">© {new Date().getFullYear()} HAYAH — Todos os direitos reservados</div>
+        </div>
+      </footer>
     </div>
   );
 }
