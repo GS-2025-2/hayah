@@ -1,5 +1,6 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
+import Wavify from "react-wavify";
 
 import fotoEntrvista from "../assets/entrevistasHome.jpg";
 import fotoEquity from "../assets/equityProposito.jpg";
@@ -7,10 +8,10 @@ import fotoEquity from "../assets/equityProposito.jpg";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#dfd4bf] dark:bg-[#0a2e1a] transition-colors duration-700 relative text-[#091c1a] dark:text-[#dfd4bf]">
+    <div className="min-h-screen bg-[#dfd4bf] dark:bg-[#091c1a] transition-colors duration-700 relative text-[#091c1a] dark:text-[#dfd4bf]">
       <Navbar />
 
-      {/* Top pale header area (matches Figma) */}
+      {/* Top pale header area */}
       <header className="bg-[#e9e0d0]">
         <div className="max-w-6xl mx-auto px-6 py-8 flex items-center justify-end">
           <div className="flex items-center gap-4"></div>
@@ -19,7 +20,7 @@ export default function Home() {
       </header>
 
       {/* Hero: left text + right video */}
-      <section className="max-w-6xl mx-auto px-6 pt-16">
+      <section className="max-w-6xl mx-auto px-3 pt-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-4xl font-bold text-[#091c1a] dark:text-[#dfd4bf]">Encontre o profissional apenas pelas qualificações</h1>
@@ -32,7 +33,7 @@ export default function Home() {
 
           <div className="flex justify-center md:justify-end">
             <div className="w-full max-w-md aspect-video bg-[#f3efe6] dark:bg-[#071716] rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
-              <div className="w-5/6 h-5/6 bg-black/80 rounded flex items-center justify-center">
+              <div className="w-400 h-500 bg-black/80 rounded flex items-center justify-center">
                 <div className="text-white text-3xl">▶</div>
               </div>
             </div>
@@ -40,12 +41,21 @@ export default function Home() {
         </div>
       </section>
 
+      <div className="relative -mb-20" aria-hidden>
+        <Wavify
+          fill="#0a2e1a"
+          paused={true}
+          options={{ height: 10, amplitude: 200, speed: 0.2, points: 2 }}
+          className="w-full h-20 block"
+        />
+      </div>
+
       {/* Two green full-bleed sections separated by a beige rectangle */}
       <section className="mt-16">
         {/* Top green area */}
-        <div className="bg-[#091c1a] text-[#dfd4bf]">
-          <div className="max-w-6xl mx-auto px-6 py-24">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="bg-[#0a2e1a] text-[#dfd4bf]">
+          <div className="max-w-6xl mx-auto px-3 py-24">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
               <div className="md:order-last">
                 <h2 className="text-3xl font-bold">Entrevistas totalmente as cegas</h2>
                 <p className="mt-4 leading-relaxed">
@@ -65,12 +75,20 @@ export default function Home() {
           </div>
         </div>
 
-
+        <div className="relative -mb-20" aria-hidden>
+        <Wavify
+          fill="#0a2e1a"
+          paused={true}
+          options={{ height: 10, amplitude: 200, speed: 0.2, points: 2 }}
+          className="w-full h-20 block"
+          style={{ transform: "rotate(180deg)" }}
+        />
+      </div>
 
         {/* Bottom green area */}
-        <div className="bg-[#dfd4bf] dark:bg-[#0a2e1a] text-[#091c1a] dark:text-[#dfd4bf]">
-          <div className="max-w-6xl mx-auto px-6 py-24">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="bg-[#dfd4bf] dark:bg-[#091c1a] text-[#091c1a] dark:text-[#dfd4bf]">
+          <div className="max-w-6xl mx-auto px-3 py-30">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
               <div>
                 <h2 className="text-3xl font-bold">Propósito</h2>
                 <p className="mt-4 leading-relaxed">
