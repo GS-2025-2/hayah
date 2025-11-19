@@ -1,0 +1,10 @@
+{
+    "recrutadores": [
+        {
+            "id": 1,
+            "nome": "Maria Recrutadora",
+            "cpf": "123-456-789-99",
+            "senha": "admin123"
+        }
+    ]
+}
