@@ -10,10 +10,9 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-2">Recursos</h3>
           <ul className="space-y-1">
-            <li><Link to="#">SaaS Development</Link></li>
-            <li><Link to="#">Nossos Produtos</Link></li>
-            <li><Link to="#">User Flow</Link></li>
-            <li><Link to="#">User Strategy</Link></li>
+            <li><Link to="#">Entrevistas Anônimas</Link></li>
+            <li><Link to="#">Apenas Avaliações Técnicas</Link></li>
+            <li><Link to="#">Inclusão Social</Link></li>
           </ul>
         </div>
 
@@ -21,9 +20,8 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-2">Empresa</h3>
           <ul className="space-y-1">
-            <li><Link to="#">Sobre Hayah</Link></li>
-            <li><Link to="#">Contato & Suporte</Link></li>
-            <li><Link to="#">Histórico de Sucesso</Link></li>
+            <li><Link to="/">Sobre Hayah</Link></li>
+            <li><Link to="https://maps.app.goo.gl/UrtyfuDsWRFBLk5h7">Nosso Escritório</Link></li>
             <li><Link to="#">Privacidade</Link></li>
           </ul>
         </div>

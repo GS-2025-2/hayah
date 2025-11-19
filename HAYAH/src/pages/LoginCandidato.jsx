@@ -52,7 +52,7 @@ export default function LoginCandidato() {
                     {/* Link de recuperação de senha */}
                     <div className="text-right">
                         <a
-                        href="/recuperar-senha"
+                        href="#"
                         className="text-sm text-[#0a2e1a] dark:text-[#4AF297] hover:underline"
                         >
                         Esqueci minha senha
@@ -61,7 +61,7 @@ export default function LoginCandidato() {
 
                     <button
                         type="submit"
-                        className="mt-4 mx-auto bg-[#0a2e1a] text-white py-2 px-6 w-65 rounded-full hover:bg-[#0c3a24] transition shadow-xl
+                        className="mt-4 mx-auto bg-[#0a2e1a] text-[#dfd4bf] py-2 px-6 w-65 rounded-full hover:bg-[#0c3a24] transition shadow-xl
                         dark:bg-[#4AF297] dark:text-[#091c1a] dark:hover:bg-[#3ebd8f]"
                     >
                         Acessar conta
