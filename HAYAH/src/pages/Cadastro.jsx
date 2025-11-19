@@ -17,11 +17,11 @@ export default function Cadastro() {
         </div>
 
         {/* Formulário mais afastado */}
-        <form className="w-full max-w-5xl bg-[#C4B79E] dark:bg-[#0a2e1a] p-7 rounded-xl shadow-lg space-y-6">
+        <form className="w-full max-w-5xl bg-[#C4B79E] dark:bg-[#D3E0DD] p-7 rounded-xl shadow-lg space-y-6">
 
           {/* Observação destacada */}
-          <div className="bg-[#C4B79E] dark:bg-[#16453F] border-l-4 border-[#0a2e1a] dark:border-[#4AF297] p-4  ">
-            <p className="text-sm md:text-base text-[#0a2e1a] dark:text-[#dfd4bf] font-medium">
+          <div className="bg-[#C4B79E] dark:bg-[#D3E0DD] border-l-4 border-[#0a2e1a] dark:border-[#16453F] p-4  ">
+            <p className="text-sm md:text-base text-[#0a2e1a] dark:text-[#091c1a] font-medium">
               <strong className="font-semibold uppercase">Observação:</strong> Contas de <strong>recrutador</strong> só podem ser criadas mediante contratação de um dos nossos pacotes. Para isso, entre em contato com nossa equipe pelo e-mail <a href="mailto:Comercial@hayah.com.br" className="underline hover:text-[#0a2e1a] dark:hover:text-[#4AF297]">comercial@hayah.com.br</a>.
             </p>
           </div>
@@ -33,7 +33,7 @@ export default function Cadastro() {
               placeholder="CPF"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#dfd4bf]
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
             />
             <input
@@ -41,7 +41,7 @@ export default function Cadastro() {
               placeholder="Senha"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#dfd4bf]
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
             />
             <input
@@ -49,7 +49,7 @@ export default function Cadastro() {
               placeholder="Nova Senha"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#dfd4bf]
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
             />
             <input
@@ -57,7 +57,7 @@ export default function Cadastro() {
               placeholder="Endereço"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#dfd4bf]
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
             />
             <input
@@ -65,7 +65,7 @@ export default function Cadastro() {
               placeholder="Idiomas"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#dfd4bf]
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
             />
           </div>
@@ -73,45 +73,46 @@ export default function Cadastro() {
           <textarea
             placeholder="Habilidades Técnicas"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#dfd4bf]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
           />
           <textarea
             placeholder="Softskills"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#dfd4bf]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
           />
           <textarea
             placeholder="Experiências"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#dfd4bf]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
           />
           <textarea
             placeholder="Formação"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#dfd4bf]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
           />
 
           <div className="py-2">
-            <label className="block text-lg font-medium text-[#091c1a] dark:text-[#dfd4bf] py-2">
+            <label className="block text-lg font-medium text-[#091c1a] dark:text-[#091c1a] py-2">
               Anexe seus Certificados:
             </label>
             <input
               type="file"
               className="file:border file:border-[#0a2e1a] file:text-[#0a2e1a] 
-                        dark:file:border-[#4AF297] dark:file:text-[#4AF297] 
+                        dark:file:border-[#16453F] dark:file:text-[#16453F] 
                         file:py-2 file:px-6 file:rounded-lg file:text-sm file:font-medium 
                         file:bg-transparent file:shadow-xl 
-                        text-[#091c1a] dark:text-[#dfd4bf]"
+                        text-[#091c1a] dark:text-[#091c1a]"
             />
           </div>
 
           <div className="flex justify-end">
-            <button
+           <button
               type="submit"
-              className="bg-[#0a2e1a] dark:bg-[#4AF297] text-white dark:text-[#091c1a] py-3 px-6 rounded-lg hover:opacity-80 transition"
+              className="bg-[#0a2e1a] text-[#dfd4bf] py-3 px-6 rounded-lg shadow-xl transition hover:bg-[#0c3a24] 
+                        dark:bg-[#4AF297] dark:text-[#091c1a] dark:hover:bg-[#3ebd8f]"
             >
               Concluir
-            </button>
+          </button>
           </div>
         </form>
       </div>
