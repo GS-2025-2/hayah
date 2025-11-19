@@ -7,6 +7,7 @@ import LoginCandidato from "./pages/LoginCandidato";
 import LoginRecrutador from "./pages/LoginRecrutador";
 
 
+
 export default function App() {
   return (
     <Routes>
@@ -14,6 +15,8 @@ export default function App() {
       <Route path="/cursos" element={<Cursos />} />
       <Route path="/loginCandidato" element={<LoginCandidato />} />
       <Route path="/loginRecrutador" element={<LoginRecrutador />} />
+     
+      
       
     </Routes>
   );
