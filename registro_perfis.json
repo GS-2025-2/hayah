@@ -1,0 +1,76 @@
+{
+    "perfis": [
+        {
+            "id": 1,
+            "cpf": "123.456.789-00",
+            "senha": "senha123",
+            "cargo": "Desenvolvedor Python",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": [
+                "Python",
+                "Flask",
+                "APIs"
+            ],
+            "softskills": [
+                "Comunicação",
+                "Resiliência"
+            ],
+            "experiencias": [
+                "2 anos como Dev Python na XPTO"
+            ],
+            "formacao": [
+                "Engenharia de Software - USP"
+            ],
+            "projetos": [
+                "API de Recrutamento",
+                "Sistema de RH"
+            ],
+            "certificacoes": [
+                "Certificação Python PCEP"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ],
+            "areainteresses": [
+                "Back-end",
+                "Automação"
+            ]
+        },
+        {
+            "id": 2,
+            "cpf": "122.345.678-00",
+            "senha": "senhaa",
+            "cargo": "Desenvolvedor Python",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": [
+                "Python",
+                "Flask",
+                "APIs"
+            ],
+            "softskills": [
+                "Comunicação",
+                "Resiliência"
+            ],
+            "experiencias": [
+                "2 anos como Dev Python na XPTO"
+            ],
+            "formacao": [
+                "Engenharia de Software - USP"
+            ],
+            "projetos": [
+                "API de Recrutamento",
+                "Sistema de RH"
+            ],
+            "certificacoes": [
+                "Certificação Python PCEP"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ],
+            "areainteresses": [
+                "Back-end",
+                "Automação"
+            ]
+        }
+    ]
+}

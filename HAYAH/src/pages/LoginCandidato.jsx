@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
@@ -5,6 +6,38 @@ import { Link } from "react-router-dom";
 
 
 export default function LoginCandidato() {
+
+  const [cpf, setCpf] = useState("");
+  const [senha, setSenha] = useState("");
+  const [erro, setErro] = useState("");
+
+  async function handleLogin(e) {
+    e.preventDefault();
+
+    setErro("");
+
+    try {
+      const response = await fetch("http://127.0.0.1:5000/loginCandidato", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ cpf, senha })
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setErro(data.mensagem);
+        return;
+      }
+      window.location.href = "/Candidato";  
+
+    } catch (error) {
+      setErro("Erro de conexão com servidor");
+    }
+  }
+
   return (
     <div
       className="
@@ -16,7 +49,6 @@ export default function LoginCandidato() {
     >
       <Navbar />
 
-      {/* Conteúdo centralizado */}
       <div className="flex flex-col items-center justify-center pt-45 px-6">
         <div className="container mx-auto text-center mb-8">
           <h1 className="text-5xl font-bold text-[#091c1a] dark:text-[#dfd4bf]">
@@ -84,8 +116,8 @@ export default function LoginCandidato() {
          </div>
         </div>
       </div>
-    <Footer />
 
+      <Footer />
     </div>
   );
 }

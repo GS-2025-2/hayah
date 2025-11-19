@@ -1,8 +1,41 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 export default function LoginCandidato() {
+
+    const [cpf, setCpf] = useState("");
+    const [senha, setSenha] = useState("");
+    const [erro, setErro] = useState("");
+  
+    async function handleLogin(e) {
+      e.preventDefault();
+  
+      setErro("");
+  
+      try {
+        const response = await fetch("http://127.0.0.1:5000/loginRecrutador", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ cpf, senha })
+        });
+  
+        const data = await response.json();
+  
+        if (!response.ok) {
+          setErro(data.mensagem);
+          return;
+        }
+        window.location.href = "/Recrutador";  
+  
+      } catch (error) {
+        setErro("Erro de conexão com servidor");
+      }
+    }
+
   return (
     <div
       className="
@@ -23,7 +56,7 @@ export default function LoginCandidato() {
         </div>
 
         <div className="container pt-15 max-w-md mx-auto mb-30">
-            <form className="flex flex-col gap-4 w-full" action="login">
+            <form className="flex flex-col gap-4 w-full" onSubmit={handleLogin}>
                     <label className="text-lg font-medium dark:text-[#dfd4bf]" htmlFor="cpf">
                         CPF:
                     </label>
@@ -31,10 +64,12 @@ export default function LoginCandidato() {
                         type="text"
                         id="cpf"
                         name="cpf"
+                        value={cpf}
+                        onChange={(e) => setCpf(e.target.value)}
                         className="rounded px-4 py-2 focus:outline-none focus:ring 
-                          bg-transparent text-[#091c1a] border-[#091c1a] 
-                          dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
-                          border-4"
+                        bg-transparent text-[#091c1a] border-[#091c1a] 
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
+                        border-4"
                       />
                   <label className="text-lg font-medium dark:text-[#dfd4bf]" htmlFor="senha">
                     Senha:
@@ -43,11 +78,19 @@ export default function LoginCandidato() {
                       type="password"
                       id="senha"
                       name="senha"
+                      value={senha}
+                      onChange={(e) => setSenha(e.target.value)}
                       className="rounded px-4 py-2 focus:outline-none focus:ring 
-                          bg-transparent text-[#091c1a] border-[#091c1a] 
-                          dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
-                          border-4"
+                      bg-transparent text-[#091c1a] border-[#091c1a] 
+                      dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
+                      border-4"
                  />
+
+                {erro && (
+                  <p className="text-red-600 text-center font-medium">
+                    {erro}
+                  </p>
+                )}
 
 
                     {/* Link de recuperação de senha */}

@@ -1,0 +1,22 @@
+{
+    "recrutadores": [
+        {
+            "id": 1,
+            "nome": "Maria Recrutadora",
+            "cpf": "123.456.789-99",
+            "senha": "admin123"
+        },
+        {
+            "id": 2,
+            "nome": "Maria Recrutadora",
+            "cpf": "123-456.789-99",
+            "senha": "admin123"
+        },
+        {
+            "id": 3,
+            "nome": "Maria Recrutadora",
+            "cpf": "123.456.789-99",
+            "senha": "admin123"
+        }
+    ]
+}
