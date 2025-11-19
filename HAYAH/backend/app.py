@@ -207,7 +207,7 @@ if __name__ == "__main__":
  
     criar_recrutador(
         nome="Maria Recrutadora",
-        cpf="123-456-789-99",
+        cpf="123.456.789-99",
         senha="admin123"
     )
 
