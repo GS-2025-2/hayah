@@ -1,7 +1,9 @@
 import Navbar from "../components/NavBar";
+import Footer from "../components/Footer";
+
 import fotoEntrvista from "../assets/entrevistasHome.jpg";
 import fotoEquity from "../assets/equityProposito.jpg";
-// removed react-wavify; using simple sections with a beige rectangle between greens
+
 
 export default function Home() {
   return (
@@ -84,18 +86,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Footer />
 
-
-      {/* Footer */}
-      <footer className="bg-[#091c1a] text-[#dfd4bf]">
-        <div className="max-w-6xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between gap-6">
-          <div>
-            <div className="font-bold">Contato</div>
-            <div className="text-sm">contato@hayah.com.br</div>
-          </div>
-          <div className="text-sm">© {new Date().getFullYear()} HAYAH — Todos os direitos reservados</div>
-        </div>
-      </footer>
     </div>
   );
 }
