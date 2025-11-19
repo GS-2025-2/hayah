@@ -23,5 +23,5 @@
       { path: "perfil", element: <Perfil /> },
       { path: 'recrutador', element: <Recrutador />},
     ],
-    }
+      }
         ])
