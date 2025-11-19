@@ -17,6 +17,8 @@ export default function NavBar() {
     }
   });
 
+  const [showProfileMenu, setShowProfileMenu] = useState(false);
+
   useEffect(() => {
     try {
       const root = document.documentElement;
@@ -34,37 +36,54 @@ export default function NavBar() {
       style={{ color: '#dfd4bf' }}
     >
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-
-    {/* Logo sempre branco */}
-    <Link to="/" className="flex items-center">
-      <img
-        src={logoDark}
-        alt="Logo Hayah"
-        className="h-10"
-        style={{ filter: 'drop-shadow(0 1px 2px #0008)' }}
-      />
-    </Link>
-
+        {/* Logo */}
+        <Link to="/" className="flex items-center">
+          <img
+            src={logoDark}
+            alt="Logo Hayah"
+            className="h-10"
+            style={{ filter: 'drop-shadow(0 1px 2px #0008)' }}
+          />
+        </Link>
 
         {/* Menu Desktop */}
-        <ul className="flex gap-8 items-center">
+        <ul className="flex gap-8 items-center relative">
           <li>
             <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Home</Link>
           </li>
           <li className="flex items-center gap-8">
             <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Propósito</Link>
-            <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Treinamentos</Link>
+            <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Cursos</Link>
             <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Vagas</Link>
 
-            {/* Ícone de perfil */}
-            <Link
-              to="/perfil"
-              aria-label="Perfil"
-              style={{ color: '#dfd4bf' }}
-              className="hover:opacity-80"
-            >
-              <FaUser className="w-5 h-5" />
-            </Link>
+            {/* Ícone de perfil com menu suspenso */}
+            <div className="relative">
+              <button
+                onClick={() => setShowProfileMenu((prev) => !prev)}
+                aria-label="Perfil"
+                style={{ color: '#dfd4bf' }}
+                className="hover:opacity-80"
+              >
+                <FaUser className="w-5 h-5" />
+              </button>
+
+              {showProfileMenu && (
+                <div className="absolute right-0 mt-2 w-50 bg-white dark:bg-[#1f1f1f] shadow-lg rounded-md z-50">
+                  <Link
+                    to="/loginCandidato"
+                    className="block px-4 py-2 text-sm text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Login para Candidatos
+                  </Link>
+                  <Link
+                    to="/LoginRecrutador"
+                    className="block px-4 py-2 text-sm text-gray-800 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+                  >
+                    Login para Recrutadores
+                  </Link>
+                </div>
+              )}
+            </div>
 
             {/* Botão de tema */}
             <button
@@ -81,7 +100,6 @@ export default function NavBar() {
             </button>
           </li>
         </ul>
-
       </div>
     </nav>
   );
