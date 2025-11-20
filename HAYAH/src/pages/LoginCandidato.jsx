@@ -79,10 +79,12 @@ export default function LoginCandidato() {
                       type="password"
                       id="senha"
                       name="senha"
+                      value={senha}
+                      onChange={(e) => setSenha(e.target.value)}
                       className="rounded px-4 py-2 focus:outline-none focus:ring 
-                          bg-transparent text-[#091c1a] border-[#091c1a] 
-                          dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
-                          border-4"
+                      bg-transparent text-[#091c1a] border-[#091c1a] 
+                      dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
+                      border-4"
                  />
 
 
