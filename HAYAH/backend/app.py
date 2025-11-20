@@ -42,7 +42,7 @@ def salvar_perfis():
         print("Erro ao salvar perfis:", e)
 
 # Função para criar perfil, verificando se o perfil ja existe
-def criar_perfil(id, cpf, senha, cargo, localizacao, habilidades_tecnicas, softskills, experiencias, formacao, projetos, certificacoes, idiomas, areainteresses):
+def criar_perfil(id, cpf, senha, localizacao, habilidades_tecnicas, softskills, experiencias, formacao, idiomas):
     for perfil in registros_perfil:
         if perfil["id"] == id or normalizar_cpf(perfil["cpf"]) == normalizar_cpf(cpf):
             return None
@@ -58,16 +58,13 @@ def criar_perfil(id, cpf, senha, cargo, localizacao, habilidades_tecnicas, softs
         "id": id_gerado,
         "cpf": cpf,
         "senha": senha,
-        "cargo": cargo,
         "localizacao": localizacao,
         "habilidades_tecnicas": habilidades_tecnicas,
         "softskills": softskills,
         "experiencias": experiencias,
         "formacao": formacao,
-        "projetos": projetos,
-        "certificacoes": certificacoes,
         "idiomas": idiomas,
-        "areainteresses": areainteresses
+
     }
 
     registros_perfil.append(perfil)
@@ -169,46 +166,33 @@ def loginRecrutador():
         "mensagem": "Login OK",
     })
 
+
+# Flask para cadastro
+@app.post("/cadastro")
+def cadastro():
+    data = request.get_json()
+
+    carregar_perfil()
+
+    novo_id = criar_perfil(
+        id=None,
+        cpf=data.get("cpf"),
+        senha=data.get("senha"),
+        localizacao=data.get("localizacao"),
+        habilidades_tecnicas=data.get("habilidades_tecnicas", []),
+        softskills=data.get("softskills", []),
+        experiencias=data.get("experiencias", []),
+        formacao=data.get("formacao", []),
+        idiomas=data.get("idiomas", []),
+    )
+
+    if novo_id is None:
+        return jsonify({"mensagem": "O perfil ja exite"})
+
+    return jsonify({"mensagem": "Cadastro realizado"})
+
+
 if __name__ == "__main__":
     carregar_perfil()
     carregar_recrutadores()
- 
-    criar_perfil(
-        id=None,
-        cpf="123.456.789-00",
-        senha="senha123",
-        cargo="Desenvolvedor Python",
-        localizacao="São Paulo",
-        habilidades_tecnicas=["Python", "Flask", "APIs"],
-        softskills=["Comunicação", "Resiliência"],
-        experiencias=["2 anos como Dev Python na XPTO"],
-        formacao=["Engenharia de Software - USP"],
-        projetos=["API de Recrutamento", "Sistema de RH"],
-        certificacoes=["Certificação Python PCEP"],
-        idiomas=["Inglês Avançado"],
-        areainteresses=["Back-end", "Automação"]
-    )
-
-    criar_perfil(
-        id=None,
-        cpf="122.345.678-00",
-        senha="senhaa",
-        cargo="Desenvolvedor Python",
-        localizacao="São Paulo",
-        habilidades_tecnicas=["Python", "Flask", "APIs"],
-        softskills=["Comunicação", "Resiliência"],
-        experiencias=["2 anos como Dev Python na XPTO"],
-        formacao=["Engenharia de Software - USP"],
-        projetos=["API de Recrutamento", "Sistema de RH"],
-        certificacoes=["Certificação Python PCEP"],
-        idiomas=["Inglês Avançado"],
-        areainteresses=["Back-end", "Automação"]
-    )
- 
-    criar_recrutador(
-        nome="Maria Recrutadora",
-        cpf="123.456.789-99",
-        senha="admin123"
-    )
-
     app.run(debug=True)
