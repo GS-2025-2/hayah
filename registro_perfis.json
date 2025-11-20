@@ -1,258 +1,903 @@
 {
-    "perfis": [
+  "perfis": [
+    {
+      "id": 1,
+      "cpf": "123.456.789-00",
+      "senha": "senha123",
+      "cargo": "Desenvolvedor Python",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "Flask", "APIs"],
+      "softskills": ["Comunicação", "Resiliência"],
+      "experiencias": ["2 anos como Dev Python na XPTO"],
+      "formacao": ["Engenharia de Software - USP"],
+      "projetos": ["API de Recrutamento", "Sistema de RH"],
+      "certificacoes": ["Certificação Python PCEP"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Automação"]
+    },
+    {
+      "id": 2,
+      "cpf": "234.567.890-11",
+      "senha": "senha234",
+      "cargo": "Desenvolvedor Java",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Java", "Spring", "APIs REST"],
+      "softskills": ["Trabalho em equipe", "Adaptabilidade"],
+      "experiencias": ["3 anos como Dev Java na ABC Tech"],
+      "formacao": ["Ciência da Computação - UFRJ"],
+      "projetos": ["Sistema Financeiro", "Plataforma de E-commerce"],
+      "certificacoes": ["Oracle Java SE 11"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Back-end", "Microserviços"]
+    },
+    {
+      "id": 3,
+      "cpf": "345.678.901-22",
+      "senha": "senha345",
+      "cargo": "Analista de Dados",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Python", "SQL", "Pandas"],
+      "softskills": ["Comunicação", "Análise crítica"],
+      "experiencias": ["2 anos como Analista de Dados na DataCorp"],
+      "formacao": ["Estatística - UFMG"],
+      "projetos": ["Dashboard de Vendas", "Análise de Mercado"],
+      "certificacoes": ["Data Science Professional Certificate"],
+      "idiomas": ["Inglês Avançado", "Espanhol Básico"],
+      "areainteresses": ["Data Science", "Machine Learning"]
+    },
+    {
+      "id": 4,
+      "cpf": "456.789.012-33",
+      "senha": "senha456",
+      "cargo": "Engenheiro de Software",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "Docker", "AWS"],
+      "softskills": ["Liderança", "Resiliência"],
+      "experiencias": ["4 anos como Engenheiro de Software na TechSol"],
+      "formacao": ["Engenharia da Computação - UFPR"],
+      "projetos": ["Plataforma de Logística", "API de Pagamentos"],
+      "certificacoes": ["AWS Certified Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Cloud Computing"]
+    },
+    {
+      "id": 5,
+      "cpf": "567.890.123-44",
+      "senha": "senha567",
+      "cargo": "Desenvolvedor Front-end",
+      "localizacao": "Porto Alegre",
+      "habilidades_tecnicas": ["JavaScript", "React", "CSS"],
+      "softskills": ["Criatividade", "Comunicação"],
+      "experiencias": ["3 anos como Dev Front-end na WebTech"],
+      "formacao": ["Design de Software - PUCRS"],
+      "projetos": ["Site de E-commerce", "Landing Pages"],
+      "certificacoes": ["React Developer Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Front-end", "UX/UI"]
+    },
+    {
+      "id": 6,
+      "cpf": "678.901.234-55",
+      "senha": "senha678",
+      "cargo": "Especialista em DevOps",
+      "localizacao": "Recife",
+      "habilidades_tecnicas": ["AWS", "Docker", "Kubernetes"],
+      "softskills": ["Organização", "Trabalho em equipe"],
+      "experiencias": ["3 anos como DevOps na CloudTech"],
+      "formacao": ["Engenharia de Computação - UFPE"],
+      "projetos": ["Infraestrutura Cloud", "Pipeline CI/CD"],
+      "certificacoes": ["AWS Certified Solutions Architect"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Cloud", "Automação"]
+    },
+    {
+      "id": 7,
+      "cpf": "789.012.345-66",
+      "senha": "senha789",
+      "cargo": "Cientista de Dados",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "R", "Machine Learning"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["2 anos como Cientista de Dados na DataLab"],
+      "formacao": ["Matemática Aplicada - USP"],
+      "projetos": ["Previsão de Vendas", "Recomendação de Produtos"],
+      "certificacoes": ["IBM Data Science Professional Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Machine Learning", "Data Science"]
+    },
+    {
+      "id": 8,
+      "cpf": "890.123.456-77",
+      "senha": "senha890",
+      "cargo": "Engenheiro de IA",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "PyTorch"],
+      "softskills": ["Resiliência", "Trabalho em equipe"],
+      "experiencias": ["3 anos como Engenheiro de IA na AI Solutions"],
+      "formacao": ["Engenharia de Computação - UFRJ"],
+      "projetos": ["Chatbot Inteligente", "Classificador de Imagens"],
+      "certificacoes": ["Deep Learning Specialization"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["IA", "Deep Learning"]
+    },
+    {
+      "id": 9,
+      "cpf": "901.234.567-88",
+      "senha": "senha901",
+      "cargo": "Analista de Sistemas",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Java", "SQL", "Spring Boot"],
+      "softskills": ["Comunicação", "Organização"],
+      "experiencias": ["3 anos como Analista de Sistemas na SoftCorp"],
+      "formacao": ["Sistemas de Informação - UFMG"],
+      "projetos": ["ERP Interno", "Sistema de CRM"],
+      "certificacoes": ["Spring Professional Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Sistemas", "Back-end"]
+    },
+    {
+      "id": 10,
+      "cpf": "012.345.678-99",
+      "senha": "senha012",
+      "cargo": "Engenheiro de Software Full Stack",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "JavaScript", "React", "Django"],
+      "softskills": ["Resiliência", "Liderança"],
+      "experiencias": ["5 anos como Engenheiro Full Stack na DevMasters"],
+      "formacao": ["Engenharia de Software - UFPR"],
+      "projetos": ["Plataforma de Ensino", "Sistema de RH"],
+      "certificacoes": ["Full Stack Web Developer Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Front-end", "Automação"]
+    },
+    {
+      "id": 11,
+      "cpf": "111.222.333-44",
+      "senha": "senha111",
+      "cargo": "Desenvolvedor Mobile",
+      "localizacao": "Salvador",
+      "habilidades_tecnicas": ["Kotlin", "Swift", "React Native"],
+      "softskills": ["Criatividade", "Comunicação"],
+      "experiencias": ["2 anos como Dev Mobile na AppTech"],
+      "formacao": ["Ciência da Computação - UFBA"],
+      "projetos": ["App de Finanças Pessoais", "App de Saúde"],
+      "certificacoes": ["Mobile App Development Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Mobile", "UX/UI"]
+    },
+    {
+      "id": 12,
+      "cpf": "222.333.444-55",
+      "senha": "senha222",
+      "cargo": "Administrador de Banco de Dados",
+      "localizacao": "Fortaleza",
+      "habilidades_tecnicas": ["SQL", "NoSQL", "Oracle DB"],
+      "softskills": ["Organização", "Análise crítica"],
+      "experiencias": ["4 anos como DBA na DataSecure"],
+      "formacao": ["Sistemas de Informação - UFC"],
+      "projetos": ["Otimização de Banco de Dados", "Migração para NoSQL"],
+      "certificacoes": ["Oracle Database Administrator Certified Professional"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Banco de Dados", "Data Management"]
+    },
+    {
+      "id": 13,
+      "cpf": "333.444.555-66",
+      "senha": "senha333",
+      "cargo": "Engenheiro de Segurança da Informação",
+      "localizacao": "Brasília",
+      "habilidades_tecnicas": ["Segurança de Redes", "Criptografia", "Firewalls"],
+      "softskills": ["Atenção aos Detalhes", "Resiliência"],
+      "experiencias": ["5 anos como Engenheiro de Segurança na SecureTech"],
+      "formacao": ["Engenharia da Computação - UnB"],
+      "projetos": ["Implementação de Políticas de Segurança", "Auditoria de Sistemas"],
+      "certificacoes": ["Certified Information Systems Security Professional (CISSP)"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Segurança da Informação", "Cybersecurity"]
+    },
+    {
+      "id": 14,
+      "cpf": "444.555.666-77",
+      "senha": "senha444",
+      "cargo": "Desenvolvedor de Jogos",
+      "localizacao": "Florianópolis",
+      "habilidades_tecnicas": ["C#", "Unity", "Unreal Engine"],
+      "softskills": ["Criatividade", "Trabalho em equipe"],
+      "experiencias": ["3 anos como Dev de Jogos na GameStudio"],
+      "formacao": ["Design de Jogos - UFSC"],
+      "projetos": ["Jogo de Aventura 3D", "Jogo Mobile Casual"],
+      "certificacoes": ["Unity Certified Developer"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Desenvolvimento de Jogos", "Realidade Virtual"]
+    },
+    {
+      "id": 15,
+      "cpf": "555.666.777-88",
+      "senha": "senha555",
+      "cargo": "Engenheiro de Redes",
+      "localizacao": "Manaus",
+      "habilidades_tecnicas": ["Configuração de Roteadores", "Segurança de Redes", "VPN"],
+      "softskills": ["Resolução de Problemas", "Comunicação"],
+      "experiencias": ["4 anos como Engenheiro de Redes na NetSolutions"],
+      "formacao": ["Engenharia de Telecomunicações - UFAM"],
+      "projetos": ["Implementação de Redes Corporativas", "Otimização de Tráfego de Dados"],
+      "certificacoes": ["Cisco Certified Network Associate (CCNA)"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Redes", "Telecomunicações"]
+    },
+    {
+      "id": 16,
+      "cpf": "666.777.888-99",
+      "senha": "senha666",
+      "cargo": "Especialista em Cloud Computing",
+      "localizacao": "Campinas",
+      "habilidades_tecnicas": ["AWS", "Azure", "Google Cloud"],
+      "softskills": ["Organização", "Trabalho em equipe"],
+      "experiencias": ["3 anos como Especialista em Cloud na CloudExperts"],
+      "formacao": ["Engenharia de Computação - UNICAMP"],
+      "projetos": ["Migração para Nuvem", "Otimização de Custos em Cloud"],
+      "certificacoes": ["Microsoft Certified: Azure Solutions Architect Expert"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Cloud Computing", "DevOps"]
+    },
+    {
+      "id": 17,
+      "cpf": "777.888.999-00",
+      "senha": "senha777",
+      "cargo": "Desenvolvedor de Software Embarcado",
+      "localizacao": "Joinville",
+      "habilidades_tecnicas": ["C", "C++", "Microcontroladores"],
+      "softskills": ["Atenção aos Detalhes", "Resolução de Problemas"],
+      "experiencias": ["4 anos como Dev Embarcado na EmbeddedTech"],
+      "formacao": ["Engenharia Elétrica - UNIVILLE"],
+      "projetos": ["Sistema de Automação Residencial", "Dispositivo IoT"],
+      "certificacoes": ["Embedded Systems Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Sistemas Embarcados", "IoT"]
+    },
+    {
+      "id": 18,
+      "cpf": "888.999.000-11",
+      "senha": "senha888",
+      "cargo": "Analista de QA",
+      "localizacao": "Vitória",
+      "habilidades_tecnicas": ["Testes Automatizados", "Selenium", "JIRA"],
+      "softskills": ["Detalhismo", "Comunicação"],
+      "experiencias": ["2 anos como Analista de QA na QualitySoft"],
+      "formacao": ["Sistemas de Informação - UFES"],
+      "projetos": ["Automação de Testes", "Plano de Testes de Software"],
+      "certificacoes": ["ISTQB Certified Tester"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["QA", "Testes de Software"]
+    },
+    {
+      "id": 19,
+      "cpf": "999.000.111-22",
+      "senha": "senha999",
+      "cargo": "Engenheiro de Machine Learning",
+      "localizacao": "São José dos Campos",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "Scikit-learn"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["3 anos como Engenheiro de ML na MLTech"],
+      "formacao": ["Engenharia de Computação - ITA"],
+      "projetos": ["Sistema de Recomendação", "Detecção de Fraudes"],
+      "certificacoes": ["Machine Learning Engineer Nanodegree"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Machine Learning", "Data Science"]
+    },
+    {
+      "id": 20,
+      "cpf": "000.111.222-33",
+      "senha": "senha000",
+      "cargo": "Desenvolvedor de APIs",
+      "localizacao": "Campinas",
+      "habilidades_tecnicas": ["Python", "Django REST", "APIs RESTful"],
+      "softskills": ["Comunicação", "Resiliência"],
+      "experiencias": ["2 anos como Dev de APIs na API Solutions"],
+      "formacao": ["Engenharia de Software - UNICAMP"],
+      "projetos": ["API de Pagamentos", "API de Gestão de Usuários"],
+      "certificacoes": ["RESTful API Design Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "APIs"]
+    },
+    {
+      "id": 21,
+      "cpf": "121.212.121-21",
+      "senha": "senha121",
+      "cargo": "Desenvolvedor Python Sênior",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "Django", "APIs REST"],
+      "softskills": ["Liderança", "Comunicação"],
+      "experiencias": ["6 anos como Dev Python na TechCorp"],
+      "formacao": ["Engenharia de Software - USP"],
+      "projetos": ["Plataforma de E-commerce", "Sistema de Gestão Empresarial"],
+      "certificacoes": ["Certified Django Developer"],
+      "idiomas": ["Inglês Avançado", "Espanhol Intermediário"],
+      "areainteresses": ["Back-end", "Arquitetura de Software"]
+    },
+    {
+      "id": 22,
+      "cpf": "232.323.232-32",
+      "senha": "senha232",
+      "cargo": "Desenvolvedor Python Júnior",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "Flask", "APIs"],
+      "softskills": ["Aprendizado Rápido", "Trabalho em Equipe"],
+      "experiencias": ["1 ano como Dev Python na StartUpX"],
+      "formacao": ["Ciência da Computação - UFRJ"],
+      "projetos": ["API de Agendamento", "Sistema de Feedback"],
+      "certificacoes": ["Python for Everybody"],
+      "idiomas": ["Inglês Básico"],
+      "areainteresses": ["Back-end", "Automação"]
+    },
+    {
+      "id": 23,
+      "cpf": "343.434.343-43",
+      "senha": "senha343",
+      "cargo": "Desenvolvedor Python Pleno",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Python", "FastAPI", "APIs RESTful"],
+      "softskills": ["Resolução de Problemas", "Comunicação"],
+      "experiencias": ["3 anos como Dev Python na DataSolutions"],
+      "formacao": ["Engenharia de Computação - UFMG"],
+      "projetos": ["API de Análise de Dados", "Sistema de Monitoramento"],
+      "certificacoes": ["FastAPI Developer Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Back-end", "Data Science"]
+    },
+    {
+      "id": 24,
+      "cpf": "454.545.454-54",
+      "senha": "senha454",
+      "cargo": "Desenvolvedor Python Freelancer",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "Django", "APIs REST"],
+      "softskills": ["Autogerenciamento", "Comunicação"],
+      "experiencias": ["4 anos como Dev Python Freelancer"],
+      "formacao": ["Sistemas de Informação - UFPR"],
+      "projetos": ["API de Reservas", "Sistema de Gestão de Conteúdo"],
+      "certificacoes": ["Certified Python Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Desenvolvimento Web"]
+    },
         {
-            "id": 1,
-            "cpf": "123.456.789-00",
-            "senha": "senha123",
-            "cargo": "Desenvolvedor Python",
-            "localizacao": "São Paulo",
-            "habilidades_tecnicas": [
-                "Python",
-                "Flask",
-                "APIs"
-            ],
-            "softskills": [
-                "Comunicação",
-                "Resiliência"
-            ],
-            "experiencias": [
-                "2 anos como Dev Python na XPTO"
-            ],
-            "formacao": [
-                "Engenharia de Software - USP"
-            ],
-            "projetos": [
-                "API de Recrutamento",
-                "Sistema de RH"
-            ],
-            "certificacoes": [
-                "Certificação Python PCEP"
-            ],
-            "idiomas": [
-                "Inglês Avançado"
-            ],
-            "areainteresses": [
-                "Back-end",
-                "Automação"
-            ]
-        },
-        {
-            "id": 2,
-            "cpf": "122.345.678-00",
-            "senha": "senhaa",
-            "cargo": "Desenvolvedor Python",
-            "localizacao": "São Paulo",
-            "habilidades_tecnicas": [
-                "Python",
-                "Flask",
-                "APIs"
-            ],
-            "softskills": [
-                "Comunicação",
-                "Resiliência"
-            ],
-            "experiencias": [
-                "2 anos como Dev Python na XPTO"
-            ],
-            "formacao": [
-                "Engenharia de Software - USP"
-            ],
-            "projetos": [
-                "API de Recrutamento",
-                "Sistema de RH"
-            ],
-            "certificacoes": [
-                "Certificação Python PCEP"
-            ],
-            "idiomas": [
-                "Inglês Avançado"
-            ],
-            "areainteresses": [
-                "Back-end",
-                "Automação"
-            ]
-        },
-        {
-            "id": 3,
-            "cpf": "222.222.222-00",
-            "senha": "teste",
-            "cargo": "teste",
-            "localizacao": "teste",
-            "habilidades_tecnicas": [
-                "teste",
-                " teste"
-            ],
-            "softskills": [
-                "teste",
-                " teste"
-            ],
-            "experiencias": [
-                "teste",
-                " teste"
-            ],
-            "formacao": [
-                "teste",
-                " teste"
-            ],
-            "projetos": [
-                "teste",
-                " teste"
-            ],
-            "certificacoes": [
-                "teste"
-            ],
-            "idiomas": [
-                "teste"
-            ],
-            "areainteresses": [
-                "teste"
-            ]
-        },
-        {
-            "id": 4,
-            "cpf": "",
-            "senha": "",
-            "localizacao": "",
-            "habilidades_tecnicas": [
-                ""
-            ],
-            "softskills": [
-                ""
-            ],
-            "experiencias": [
-                ""
-            ],
-            "formacao": [
-                ""
-            ],
-            "projetos": [
-                ""
-            ],
-            "certificacoes": [
-                ""
-            ],
-            "idiomas": [
-                ""
-            ],
-            "areainteresses": [
-                ""
-            ]
-        },
-        {
-            "id": 5,
-            "cpf": "888888888-88",
-            "senha": "teste",
-            "localizacao": "teste",
-            "habilidades_tecnicas": [
-                "teste"
-            ],
-            "softskills": [
-                "teste"
-            ],
-            "experiencias": [
-                "teste"
-            ],
-            "formacao": [
-                "teste"
-            ],
-            "projetos": [
-                ""
-            ],
-            "certificacoes": [
-                ""
-            ],
-            "idiomas": [
-                "teste"
-            ],
-            "areainteresses": [
-                ""
-            ]
-        },
-        {
-            "id": 6,
-            "cpf": "555555555-55",
-            "senha": "teste",
-            "localizacao": "teste, teste",
-            "habilidades_tecnicas": [
-                "teste",
-                " teste"
-            ],
-            "softskills": [
-                "teste",
-                " teee"
-            ],
-            "experiencias": [
-                "tee"
-            ],
-            "formacao": [
-                "teste"
-            ],
-            "idiomas": [
-                "teste"
-            ]
-        },
-        {
-            "id": 7,
-            "cpf": "777777777-77",
-            "senha": "teste",
-            "localizacao": "",
-            "habilidades_tecnicas": [
-                ""
-            ],
-            "softskills": [
-                ""
-            ],
-            "experiencias": [
-                ""
-            ],
-            "formacao": [
-                ""
-            ],
-            "idiomas": [
-                ""
-            ]
-        },
-        {
-            "id": 8,
-            "cpf": "111111111-11",
-            "senha": "teste",
-            "localizacao": "",
-            "habilidades_tecnicas": [
-                ""
-            ],
-            "softskills": [
-                ""
-            ],
-            "experiencias": [
-                ""
-            ],
-            "formacao": [
-                ""
-            ],
-            "idiomas": [
-                ""
-            ]
-        },
-        {
-            "id": 9,
-            "cpf": "222222222-11",
-            "senha": "teste",
-            "localizacao": "",
-            "habilidades_tecnicas": [
-                ""
-            ],
-            "softskills": [
-                ""
-            ],
-            "experiencias": [
-                ""
-            ],
-            "formacao": [
-                ""
-            ],
-            "idiomas": [
-                ""
-            ]
-        }
-    ]
+      "id": 25,
+      "cpf": "565.656.565-65",
+      "senha": "senha565",
+      "cargo": "Desenvolvedor Python Full Stack",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "React", "Django", "APIs REST"],
+      "softskills": ["Comunicação", "Resiliência"],
+      "experiencias": ["5 anos como Dev Full Stack na WebCorp"],
+      "formacao": ["Engenharia de Software - USP"],
+      "projetos": ["Sistema de Gestão Escolar", "Plataforma de E-commerce"],
+      "certificacoes": ["Full Stack Python Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Front-end", "Automação"]
+    },
+    {
+      "id": 26,
+      "cpf": "676.767.676-76",
+      "senha": "senha676",
+      "cargo": "Engenheiro de Dados",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "SQL", "ETL", "BigQuery"],
+      "softskills": ["Análise crítica", "Trabalho em equipe"],
+      "experiencias": ["3 anos como Engenheiro de Dados na DataLake"],
+      "formacao": ["Ciência da Computação - UFRJ"],
+      "projetos": ["Pipeline de Dados", "Data Warehouse"],
+      "certificacoes": ["Google Data Engineer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Data Engineering", "Cloud"]
+    },
+    {
+      "id": 27,
+      "cpf": "787.878.787-87",
+      "senha": "senha787",
+      "cargo": "Desenvolvedor Java Sênior",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Java", "Spring Boot", "Microserviços"],
+      "softskills": ["Liderança", "Resolução de Problemas"],
+      "experiencias": ["6 anos como Dev Java na FinTech BH"],
+      "formacao": ["Engenharia de Software - UFMG"],
+      "projetos": ["Sistema Bancário", "API de Pagamentos"],
+      "certificacoes": ["Oracle Java SE 11 Certified Professional"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Microserviços"]
+    },
+    {
+      "id": 28,
+      "cpf": "898.989.898-98",
+      "senha": "senha898",
+      "cargo": "Desenvolvedor Front-end Sênior",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["JavaScript", "React", "Vue.js", "CSS"],
+      "softskills": ["Criatividade", "Comunicação"],
+      "experiencias": ["5 anos como Dev Front-end na WebDesign"],
+      "formacao": ["Design de Software - UFPR"],
+      "projetos": ["Plataforma de E-commerce", "Portal de Conteúdo"],
+      "certificacoes": ["React Advanced Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Front-end", "UX/UI"]
+    },
+    {
+      "id": 29,
+      "cpf": "909.090.909-09",
+      "senha": "senha909",
+      "cargo": "Analista de Business Intelligence",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Power BI", "SQL", "Python"],
+      "softskills": ["Análise crítica", "Comunicação"],
+      "experiencias": ["4 anos como BI Analyst na MarketCorp"],
+      "formacao": ["Administração com ênfase em TI - USP"],
+      "projetos": ["Dashboard de Vendas", "Relatórios Gerenciais"],
+      "certificacoes": ["Microsoft Certified: Data Analyst Associate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["BI", "Data Analytics"]
+    },
+    {
+      "id": 30,
+      "cpf": "101.010.101-10",
+      "senha": "senha101",
+      "cargo": "Engenheiro de Machine Learning Sênior",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "Scikit-learn", "PyTorch"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["5 anos como ML Engineer na AI Lab"],
+      "formacao": ["Engenharia de Computação - UFRJ"],
+      "projetos": ["Sistema de Recomendação", "Detecção de Fraudes"],
+      "certificacoes": ["Machine Learning Engineer Nanodegree"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Machine Learning", "Deep Learning"]
+    },
+    {
+      "id": 31,
+      "cpf": "212.121.212-12",
+      "senha": "senha212",
+      "cargo": "Desenvolvedor Mobile Sênior",
+      "localizacao": "Salvador",
+      "habilidades_tecnicas": ["Kotlin", "Swift", "React Native"],
+      "softskills": ["Criatividade", "Trabalho em equipe"],
+      "experiencias": ["5 anos como Dev Mobile na AppFactory"],
+      "formacao": ["Ciência da Computação - UFBA"],
+      "projetos": ["App de Saúde", "App Financeiro"],
+      "certificacoes": ["Mobile App Development Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Mobile", "UX/UI"]
+    },
+    {
+      "id": 32,
+      "cpf": "323.232.323-23",
+      "senha": "senha323",
+      "cargo": "Especialista em DevOps Sênior",
+      "localizacao": "Recife",
+      "habilidades_tecnicas": ["AWS", "Docker", "Kubernetes", "CI/CD"],
+      "softskills": ["Organização", "Liderança"],
+      "experiencias": ["5 anos como DevOps na CloudExperts"],
+      "formacao": ["Engenharia de Computação - UFPE"],
+      "projetos": ["Automação de Pipelines", "Infraestrutura Cloud"],
+      "certificacoes": ["AWS DevOps Engineer Professional"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Cloud", "Automação"]
+    },
+    {
+      "id": 33,
+      "cpf": "434.343.434-34",
+      "senha": "senha434",
+      "cargo": "Cientista de Dados Sênior",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "R", "Machine Learning", "SQL"],
+      "softskills": ["Pensamento Analítico", "Comunicação"],
+      "experiencias": ["6 anos como Cientista de Dados na DataLab"],
+      "formacao": ["Matemática Aplicada - USP"],
+      "projetos": ["Previsão de Vendas", "Modelos Preditivos"],
+      "certificacoes": ["IBM Data Science Professional Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Data Science", "Machine Learning"]
+    },    {
+      "id": 34,
+      "cpf": "545.454.545-45",
+      "senha": "senha545",
+      "cargo": "Engenheiro de Software Pleno",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "Django", "Docker"],
+      "softskills": ["Resiliência", "Trabalho em equipe"],
+      "experiencias": ["4 anos como Engenheiro de Software na DevMasters"],
+      "formacao": ["Engenharia de Computação - UFPR"],
+      "projetos": ["Sistema de RH", "Plataforma de Logística"],
+      "certificacoes": ["AWS Certified Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Cloud Computing"]
+    },
+    {
+      "id": 35,
+      "cpf": "656.565.656-56",
+      "senha": "senha656",
+      "cargo": "Desenvolvedor Python Júnior",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "Flask", "APIs"],
+      "softskills": ["Aprendizado rápido", "Comunicação"],
+      "experiencias": ["1 ano como Dev Python na StartUpLab"],
+      "formacao": ["Engenharia de Software - USP"],
+      "projetos": ["API de Agendamento", "Sistema de Feedback"],
+      "certificacoes": ["Python for Everybody"],
+      "idiomas": ["Inglês Básico"],
+      "areainteresses": ["Back-end", "Automação"]
+    },
+    {
+      "id": 36,
+      "cpf": "767.676.767-67",
+      "senha": "senha767",
+      "cargo": "Analista de QA Sênior",
+      "localizacao": "Vitória",
+      "habilidades_tecnicas": ["Testes Automatizados", "Selenium", "JIRA"],
+      "softskills": ["Detalhismo", "Organização"],
+      "experiencias": ["5 anos como QA na QualitySoft"],
+      "formacao": ["Sistemas de Informação - UFES"],
+      "projetos": ["Automação de Testes", "Plano de Testes de Software"],
+      "certificacoes": ["ISTQB Advanced Level"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["QA", "Testes de Software"]
+    },
+    {
+      "id": 37,
+      "cpf": "878.787.878-78",
+      "senha": "senha878",
+      "cargo": "Engenheiro de Segurança da Informação Sênior",
+      "localizacao": "Brasília",
+      "habilidades_tecnicas": ["Criptografia", "Firewalls", "Segurança de Redes"],
+      "softskills": ["Atenção aos Detalhes", "Resiliência"],
+      "experiencias": ["6 anos como Engenheiro de Segurança na SecureTech"],
+      "formacao": ["Engenharia da Computação - UnB"],
+      "projetos": ["Auditoria de Sistemas", "Políticas de Segurança"],
+      "certificacoes": ["CISSP"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Segurança da Informação", "Cybersecurity"]
+    },
+    {
+      "id": 38,
+      "cpf": "989.898.989-89",
+      "senha": "senha989",
+      "cargo": "Desenvolvedor de Jogos Sênior",
+      "localizacao": "Florianópolis",
+      "habilidades_tecnicas": ["C#", "Unity", "Unreal Engine"],
+      "softskills": ["Criatividade", "Trabalho em equipe"],
+      "experiencias": ["5 anos como Dev de Jogos na GameStudio"],
+      "formacao": ["Design de Jogos - UFSC"],
+      "projetos": ["Jogo 3D Aventura", "Jogo Mobile Casual"],
+      "certificacoes": ["Unity Certified Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Desenvolvimento de Jogos", "Realidade Virtual"]
+    },
+    {
+      "id": 39,
+      "cpf": "101.101.101-11",
+      "senha": "senha1011",
+      "cargo": "Engenheiro de Redes Sênior",
+      "localizacao": "Manaus",
+      "habilidades_tecnicas": ["Configuração de Roteadores", "Segurança de Redes", "VPN"],
+      "softskills": ["Resolução de Problemas", "Comunicação"],
+      "experiencias": ["5 anos como Engenheiro de Redes na NetSolutions"],
+      "formacao": ["Engenharia de Telecomunicações - UFAM"],
+      "projetos": ["Redes Corporativas", "Otimização de Tráfego"],
+      "certificacoes": ["Cisco CCNP"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Redes", "Telecomunicações"]
+    },
+    {
+      "id": 40,
+      "cpf": "202.202.202-22",
+      "senha": "senha2022",
+      "cargo": "Especialista em Cloud Computing",
+      "localizacao": "Campinas",
+      "habilidades_tecnicas": ["AWS", "Azure", "Google Cloud"],
+      "softskills": ["Organização", "Trabalho em equipe"],
+      "experiencias": ["5 anos como Especialista Cloud na CloudExperts"],
+      "formacao": ["Engenharia de Computação - UNICAMP"],
+      "projetos": ["Migração Cloud", "Otimização Custos Cloud"],
+      "certificacoes": ["Azure Solutions Architect Expert"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Cloud Computing", "DevOps"]
+    },
+    {
+      "id": 41,
+      "cpf": "303.303.303-33",
+      "senha": "senha3033",
+      "cargo": "Desenvolvedor de Software Embarcado",
+      "localizacao": "Joinville",
+      "habilidades_tecnicas": ["C", "C++", "Microcontroladores"],
+      "softskills": ["Atenção aos Detalhes", "Resolução de Problemas"],
+      "experiencias": ["5 anos como Dev Embarcado na EmbeddedTech"],
+      "formacao": ["Engenharia Elétrica - UNIVILLE"],
+      "projetos": ["Automação Residencial", "Dispositivo IoT"],
+      "certificacoes": ["Embedded Systems Certification"],
+      "idiomas": ["Inglês Intermediário"],
+      "areainteresses": ["Sistemas Embarcados", "IoT"]
+    },
+    {
+      "id": 42,
+      "cpf": "404.404.404-44",
+      "senha": "senha4044",
+      "cargo": "Analista de Sistemas Pleno",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Java", "SQL", "Spring Boot"],
+      "softskills": ["Comunicação", "Organização"],
+      "experiencias": ["4 anos como Analista de Sistemas na SoftCorp"],
+      "formacao": ["Sistemas de Informação - UFMG"],
+      "projetos": ["ERP Interno", "Sistema de CRM"],
+      "certificacoes": ["Spring Professional Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Sistemas", "Back-end"]
+    },
+    {
+      "id": 43,
+      "cpf": "505.505.505-55",
+      "senha": "senha5055",
+      "cargo": "Desenvolvedor Python Pleno",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "FastAPI", "APIs RESTful"],
+      "softskills": ["Resolução de Problemas", "Comunicação"],
+      "experiencias": ["4 anos como Dev Python na DataSolutions"],
+      "formacao": ["Engenharia de Computação - UFPR"],
+      "projetos": ["API de Monitoramento", "Sistema de Analytics"],
+      "certificacoes": ["FastAPI Developer Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Data Science"]
+    },
+    {
+      "id": 44,
+      "cpf": "606.606.606-66",
+      "senha": "senha6066",
+      "cargo": "Desenvolvedor Python Freelancer",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "Django", "APIs REST"],
+      "softskills": ["Autogerenciamento", "Comunicação"],
+      "experiencias": ["5 anos como Dev Python Freelancer"],
+      "formacao": ["Sistemas de Informação - USP"],
+      "projetos": ["API de Reservas", "Sistema de Gestão de Conteúdo"],
+      "certificacoes": ["Certified Python Developer"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Desenvolvimento Web"]
+    },
+    {
+      "id": 45,
+      "cpf": "707.707.707-77",
+      "senha": "senha7077",
+      "cargo": "Engenheiro de IA Pleno",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "PyTorch"],
+      "softskills": ["Resiliência", "Trabalho em equipe"],
+      "experiencias": ["4 anos como Engenheiro de IA na AI Solutions"],
+      "formacao": ["Engenharia de Computação - UFRJ"],
+      "projetos": ["Chatbot Inteligente", "Classificador de Imagens"],
+      "certificacoes": ["Deep Learning Specialization"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["IA", "Deep Learning"]
+    },
+    {
+      "id": 46,
+      "cpf": "808.808.808-88",
+      "senha": "senha8088",
+      "cargo": "Cientista de Dados Pleno",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "R", "Machine Learning"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["4 anos como Cientista de Dados na DataLab"],
+      "formacao": ["Matemática Aplicada - USP"],
+      "projetos": ["Previsão de Vendas", "Recomendação de Produtos"],
+      "certificacoes": ["IBM Data Science Professional Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Data Science", "Machine Learning"]
+    },
+    {
+      "id": 47,
+      "cpf": "909.909.909-99",
+      "senha": "senha9099",
+      "cargo": "Engenheiro de Machine Learning Pleno",
+      "localizacao": "São José dos Campos",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "Scikit-learn"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["4 anos como Engenheiro de ML na MLTech"],
+      "formacao": ["Engenharia de Computação - ITA"],
+      "projetos": ["Sistema de Recomendação", "Detecção de Fraudes"],
+      "certificacoes": ["Machine Learning Engineer Nanodegree"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Machine Learning", "Data Science"]
+    },
+    {
+      "id": 48,
+      "cpf": "111.111.111-11",
+      "senha": "senha1111",
+      "cargo": "Administrador de Banco de Dados Pleno",
+      "localizacao": "Fortaleza",
+      "habilidades_tecnicas": ["SQL", "NoSQL", "Oracle DB"],
+      "softskills": ["Organização", "Análise crítica"],
+      "experiencias": ["5 anos como DBA na DataSecure"],
+      "formacao": ["Sistemas de Informação - UFC"],
+      "projetos": ["Otimização de Banco de Dados", "Migração para NoSQL"],
+      "certificacoes": ["Oracle DBA Certified Professional"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Banco de Dados", "Data Management"]
+    },
+    {
+      "id": 49,
+      "cpf": "222.222.222-22",
+      "senha": "senha2222",
+      "cargo": "Desenvolvedor Java Pleno",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Java", "Spring", "APIs REST"],
+      "softskills": ["Trabalho em equipe", "Adaptabilidade"],
+      "experiencias": ["4 anos como Dev Java na ABC Tech"],
+      "formacao": ["Ciência da Computação - UFRJ"],
+      "projetos": ["Sistema Financeiro", "Plataforma de E-commerce"],
+      "certificacoes": ["Oracle Java SE 11"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Microserviços"]
+    },
+    {
+      "id": 50,
+      "cpf": "333.333.333-33",
+      "senha": "senha3333",
+      "cargo": "Desenvolvedor Front-end Pleno",
+      "localizacao": "Porto Alegre",
+      "habilidades_tecnicas": ["JavaScript", "React", "CSS"],
+      "softskills": ["Criatividade", "Comunicação"],
+      "experiencias": ["4 anos como Dev Front-end na WebTech"],
+      "formacao": ["Design de Software - PUCRS"],
+      "projetos": ["Site de E-commerce", "Landing Pages"],
+      "certificacoes": ["React Developer Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Front-end", "UX/UI"]
+    },
+    {
+      "id": 51,
+      "cpf": "444.444.444-44",
+      "senha": "senha4444",
+      "cargo": "Engenheiro de Software Full Stack Pleno",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "JavaScript", "React", "Django"],
+      "softskills": ["Resiliência", "Liderança"],
+      "experiencias": ["6 anos como Engenheiro Full Stack na DevMasters"],
+      "formacao": ["Engenharia de Software - UFPR"],
+      "projetos": ["Plataforma de Ensino", "Sistema de RH"],
+      "certificacoes": ["Full Stack Web Developer Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Back-end", "Front-end", "Automação"]
+    },
+    {
+      "id": 52,
+      "cpf": "555.555.555-55",
+      "senha": "senha5555",
+      "cargo": "Desenvolvedor Mobile Pleno",
+      "localizacao": "Salvador",
+      "habilidades_tecnicas": ["Kotlin", "Swift", "React Native"],
+      "softskills": ["Criatividade", "Comunicação"],
+      "experiencias": ["4 anos como Dev Mobile na AppTech"],
+      "formacao": ["Ciência da Computação - UFBA"],
+      "projetos": ["App de Finanças Pessoais", "App de Saúde"],
+      "certificacoes": ["Mobile App Development Certification"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Mobile", "UX/UI"]
+    },
+    {
+      "id": 53,
+      "cpf": "666.666.666-66",
+      "senha": "senha6666",
+      "cargo": "Especialista em DevOps Pleno",
+      "localizacao": "Recife",
+      "habilidades_tecnicas": ["AWS", "Docker", "Kubernetes"],
+      "softskills": ["Organização", "Trabalho em equipe"],
+      "experiencias": ["4 anos como DevOps na CloudTech"],
+      "formacao": ["Engenharia de Computação - UFPE"],
+      "projetos": ["Infraestrutura Cloud", "Pipeline CI/CD"],
+      "certificacoes": ["AWS Certified Solutions Architect"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Cloud", "Automação"]
+    },
+    {
+      "id": 54,
+      "cpf": "777.777.777-77",
+      "senha": "senha7777",
+      "cargo": "Cientista de Dados Pleno",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "R", "Machine Learning"],
+      "softskills": ["Pensamento Analítico", "Curiosidade"],
+      "experiencias": ["4 anos como Cientista de Dados na DataLab"],
+      "formacao": ["Matemática Aplicada - USP"],
+      "projetos": ["Previsão de Vendas", "Recomendação de Produtos"],
+      "certificacoes": ["IBM Data Science Professional Certificate"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Machine Learning", "Data Science"]
+    },
+    {
+      "id": 55,
+      "cpf": "888.888.888-88",
+      "senha": "senha8888",
+      "cargo": "Engenheiro de IA Sênior",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "TensorFlow", "PyTorch"],
+      "softskills": ["Resiliência", "Trabalho em equipe"],
+      "experiencias": ["5 anos como Engenheiro de IA na AI Solutions"],
+      "formacao": ["Engenharia de Computação - UFRJ"],
+      "projetos": ["Chatbot Inteligente", "Classificador de Imagens"],
+      "certificacoes": ["Deep Learning Specialization"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["IA", "Deep Learning"]
+    },
+    {
+      "id": 56,
+      "cpf": "999.999.999-99",
+      "senha": "senha9999",
+      "cargo": "Administrador de Banco de Dados Sênior",
+      "localizacao": "Fortaleza",
+      "habilidades_tecnicas": ["SQL", "NoSQL", "Oracle DB"],
+      "softskills": ["Organização", "Análise crítica"],
+      "experiencias": ["6 anos como DBA na DataSecure"],
+      "formacao": ["Sistemas de Informação - UFC"],
+      "projetos": ["Otimização de Banco de Dados", "Migração para NoSQL"],
+      "certificacoes": ["Oracle DBA Certified Professional"],
+      "idiomas": ["Inglês Avançado"],
+      "areainteresses": ["Banco de Dados", "Data Management"]
+    },
+    {
+      "id": 57,
+      "cpf": "121.343.565-78",
+      "senha": "senha1213",
+      "cargo": "Desenvolvedor Python Especialista",
+      "localizacao": "São Paulo",
+      "habilidades_tecnicas": ["Python", "Django", "Flask", "APIs REST"],
+      "softskills": ["Liderança", "Comunicação"],
+      "experiencias": ["7 anos como Dev Python na TechCorp"],
+      "formacao": ["Engenharia de Software - USP"],
+      "projetos": ["Plataforma de E-commerce Avançada", "Sistema de Gestão Empresarial Integrado"],
+      "certificacoes": ["Certified Django Developer", "Flask Web Developer Certification"],
+      "idiomas": ["Inglês Avançado", "Espanhol Intermediário"],
+      "areainteresses": ["Back-end", "Arquitetura de Software", "Automação"]
+    },
+    {
+      "id": 58,
+      "cpf": "232.454.676-89",
+      "senha": "senha2324",
+      "cargo": "Desenvolvedor Python Especialista",
+      "localizacao": "Rio de Janeiro",
+      "habilidades_tecnicas": ["Python", "Flask", "FastAPI", "APIs"],
+      "softskills": ["Aprendizado Rápido", "Trabalho em Equipe"],
+      "experiencias": ["5 anos como Dev Python na StartUpX"],
+      "formacao": ["Ciência da Computação - UFRJ"],
+      "projetos": ["API de Agendamento Avançada", "Sistema de Feedback Inteligente"],
+      "certificacoes": ["Python for Everybody", "FastAPI Developer Certification"],
+      "idiomas": ["Inglês Intermediário", "Francês Básico"],
+      "areainteresses": ["Back-end", "Automação", "Inteligência Artificial"]
+    },
+    {
+      "id": 59,
+      "cpf": "343.565.787-90",
+      "senha": "senha3435",
+      "cargo": "Desenvolvedor Python Especialista",
+      "localizacao": "Belo Horizonte",
+      "habilidades_tecnicas": ["Python", "FastAPI", "Django", "APIs RESTful"],
+      "softskills": ["Resolução de Problemas", "Comunicação"],
+      "experiencias": ["6 anos como Dev Python na DataSolutions"],
+      "formacao": ["Engenharia de Computação - UFMG"],
+      "projetos": ["API de Análise de Dados Avançada", "Sistema de Monitoramento em Tempo Real"],
+      "certificacoes": ["FastAPI Developer Certification", "Certified Django Developer"],
+      "idiomas": ["Inglês Intermediário", "Alemão Básico"],
+      "areainteresses": ["Back-end", "Data Science", "Machine Learning"]
+    },
+    {
+      "id": 60,
+      "cpf": "454.676.898-01",
+      "senha": "senha4546",
+      "cargo": "Desenvolvedor Python Especialista",
+      "localizacao": "Curitiba",
+      "habilidades_tecnicas": ["Python", "Django", "Flask", "APIs REST"],
+      "softskills": ["Autogerenciamento", "Comunicação"],
+      "experiencias": ["7 anos como Dev Python Freelancer"],
+      "formacao": ["Sistemas de Informação - UFPR"],
+      "projetos": ["API de Reservas Avançada", "Sistema de Gestão de Conteúdo Inteligente"],
+      "certificacoes": ["Certified Python Developer", "Flask Web Developer Certification"],
+      "idiomas": ["Inglês Avançado", "Italiano Básico"],
+      "areainteresses": ["Back-end", "Desenvolvimento Web", "Automação"]
+    }
+  ]
 }
