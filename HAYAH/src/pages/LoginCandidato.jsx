@@ -86,7 +86,11 @@ export default function LoginCandidato() {
                       dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
                       border-4"
                  />
-
+                {erro && (
+                  <p className="text-red-600 text-center font-medium">
+                    {erro}
+                  </p>
+                )}
 
                     {/* Link de recuperação de senha */}
                     <div className="text-right">
