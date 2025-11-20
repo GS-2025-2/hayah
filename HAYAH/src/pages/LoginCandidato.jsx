@@ -28,7 +28,7 @@ export default function LoginCandidato() {
         setErro(data.mensagem);
         return;
       }
-      window.location.href = "/Candidato";  
+      window.location.href = "/Candidaturas";  
 
     } catch (error) {
       setErro("Erro de conexão com servidor");
