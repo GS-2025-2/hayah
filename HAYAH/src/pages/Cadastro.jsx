@@ -49,7 +49,7 @@ export default function Cadastro() {
     alert(data.mensagem);
 
     if (data.mensagem === "Cadastro realizado") {
-      navigate("/Candidaturas");
+      navigate("/loginCandidato");
     }
 
   }
