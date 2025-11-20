@@ -1,0 +1,1198 @@
+{
+    "perfis": [
+        {
+            "id": 1,
+            "cpf": "000.000.000-01",
+            "senha": "senha001",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": [
+                "Python",
+                "Flask"
+            ],
+            "softskills": [
+                "Comunicação",
+                "Resiliência"
+            ],
+            "experiencias": [
+                "2 anos como Dev Python na XPTO"
+            ],
+            "formacao": [
+                "Engenharia de Software - USP"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 2,
+            "cpf": "000.000.000-02",
+            "senha": "senha002",
+            "localizacao": "Rio de Janeiro",
+            "habilidades_tecnicas": [
+                "Java",
+                "Spring"
+            ],
+            "softskills": [
+                "Trabalho em equipe",
+                "Adaptabilidade"
+            ],
+            "experiencias": [
+                "3 anos como Dev Java na ABC Tech"
+            ],
+            "formacao": [
+                "Ciência da Computação - UFRJ"
+            ],
+            "idiomas": [
+                "Inglês Intermediário"
+            ]
+        },
+        {
+            "id": 3,
+            "cpf": "000.000.000-03",
+            "senha": "senha003",
+            "localizacao": "Belo Horizonte",
+            "habilidades_tecnicas": [
+                "Python",
+                "SQL"
+            ],
+            "softskills": [
+                "Análise crítica",
+                "Comunicação"
+            ],
+            "experiencias": [
+                "2 anos como Analista de Dados na DataCorp"
+            ],
+            "formacao": [
+                "Estatística - UFMG"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 4,
+            "cpf": "000.000.000-04",
+            "senha": "senha004",
+            "localizacao": "Curitiba",
+            "habilidades_tecnicas": [
+                "Python",
+                "Docker"
+            ],
+            "softskills": [
+                "Liderança",
+                "Resiliência"
+            ],
+            "experiencias": [
+                "4 anos como Engenheiro de Software na TechSol"
+            ],
+            "formacao": [
+                "Engenharia da Computação - UFPR"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 5,
+            "cpf": "000.000.000-05",
+            "senha": "senha005",
+            "localizacao": "Porto Alegre",
+            "habilidades_tecnicas": [
+                "JavaScript",
+                "React"
+            ],
+            "softskills": [
+                "Criatividade",
+                "Comunicação"
+            ],
+            "experiencias": [
+                "3 anos como Dev Front-end na WebTech"
+            ],
+            "formacao": [
+                "Design de Software - PUCRS"
+            ],
+            "idiomas": [
+                "Inglês Intermediário"
+            ]
+        },
+        {
+            "id": 6,
+            "cpf": "000.000.000-06",
+            "senha": "senha006",
+            "localizacao": "Recife",
+            "habilidades_tecnicas": [
+                "AWS",
+                "Docker"
+            ],
+            "softskills": [
+                "Organização",
+                "Trabalho em equipe"
+            ],
+            "experiencias": [
+                "3 anos como DevOps na CloudTech"
+            ],
+            "formacao": [
+                "Engenharia de Computação - UFPE"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 7,
+            "cpf": "000.000.000-07",
+            "senha": "senha007",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": [
+                "Python",
+                "R",
+                "Machine Learning"
+            ],
+            "softskills": [
+                "Pensamento Analítico",
+                "Curiosidade"
+            ],
+            "experiencias": [
+                "2 anos como Cientista de Dados na DataLab"
+            ],
+            "formacao": [
+                "Matemática Aplicada - USP"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 8,
+            "cpf": "000.000.000-08",
+            "senha": "senha008",
+            "localizacao": "Rio de Janeiro",
+            "habilidades_tecnicas": [
+                "Python",
+                "TensorFlow"
+            ],
+            "softskills": [
+                "Resiliência",
+                "Trabalho em equipe"
+            ],
+            "experiencias": [
+                "3 anos como Engenheiro de IA na AI Solutions"
+            ],
+            "formacao": [
+                "Engenharia de Computação - UFRJ"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 9,
+            "cpf": "000.000.000-09",
+            "senha": "senha009",
+            "localizacao": "Belo Horizonte",
+            "habilidades_tecnicas": [
+                "Java",
+                "SQL"
+            ],
+            "softskills": [
+                "Comunicação",
+                "Organização"
+            ],
+            "experiencias": [
+                "3 anos como Analista de Sistemas na SoftCorp"
+            ],
+            "formacao": [
+                "Sistemas de Informação - UFMG"
+            ],
+            "idiomas": [
+                "Inglês Intermediário"
+            ]
+        },
+        {
+            "id": 10,
+            "cpf": "000.000.000-10",
+            "senha": "senha010",
+            "localizacao": "Curitiba",
+            "habilidades_tecnicas": [
+                "Python",
+                "JavaScript",
+                "React"
+            ],
+            "softskills": [
+                "Resiliência",
+                "Liderança"
+            ],
+            "experiencias": [
+                "5 anos como Engenheiro Full Stack na DevMasters"
+            ],
+            "formacao": [
+                "Engenharia de Software - UFPR"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 11,
+            "cpf": "000.000.000-11",
+            "senha": "senha011",
+            "localizacao": "Salvador",
+            "habilidades_tecnicas": [
+                "Kotlin",
+                "Swift"
+            ],
+            "softskills": [
+                "Criatividade",
+                "Comunicação"
+            ],
+            "experiencias": [
+                "2 anos como Dev Mobile na AppTech"
+            ],
+            "formacao": [
+                "Ciência da Computação - UFBA"
+            ],
+            "idiomas": [
+                "Inglês Intermediário"
+            ]
+        },
+        {
+            "id": 12,
+            "cpf": "000.000.000-12",
+            "senha": "senha012",
+            "localizacao": "Fortaleza",
+            "habilidades_tecnicas": [
+                "SQL",
+                "NoSQL"
+            ],
+            "softskills": [
+                "Organização",
+                "Análise crítica"
+            ],
+            "experiencias": [
+                "4 anos como DBA na DataSecure"
+            ],
+            "formacao": [
+                "Sistemas de Informação - UFC"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 13,
+            "cpf": "000.000.000-13",
+            "senha": "senha013",
+            "localizacao": "Brasília",
+            "habilidades_tecnicas": [
+                "Segurança de Redes",
+                "Criptografia"
+            ],
+            "softskills": [
+                "Atenção aos Detalhes",
+                "Resiliência"
+            ],
+            "experiencias": [
+                "5 anos como Engenheiro de Segurança na SecureTech"
+            ],
+            "formacao": [
+                "Engenharia da Computação - UnB"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 14,
+            "cpf": "000.000.000-14",
+            "senha": "senha014",
+            "localizacao": "Florianópolis",
+            "habilidades_tecnicas": [
+                "C#",
+                "Unity"
+            ],
+            "softskills": [
+                "Criatividade",
+                "Trabalho em equipe"
+            ],
+            "experiencias": [
+                "3 anos como Dev de Jogos na GameStudio"
+            ],
+            "formacao": [
+                "Design de Jogos - UFSC"
+            ],
+            "idiomas": [
+                "Inglês Intermediário"
+            ]
+        },
+        {
+            "id": 15,
+            "cpf": "000.000.000-15",
+            "senha": "senha015",
+            "localizacao": "Manaus",
+            "habilidades_tecnicas": [
+                "Configuração de Roteadores",
+                "VPN"
+            ],
+            "softskills": [
+                "Resolução de Problemas",
+                "Comunicação"
+            ],
+            "experiencias": [
+                "4 anos como Engenheiro de Redes na NetSolutions"
+            ],
+            "formacao": [
+                "Engenharia de Telecomunicações - UFAM"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 16,
+            "cpf": "000.000.000-16",
+            "senha": "senha016",
+            "localizacao": "Campinas",
+            "habilidades_tecnicas": [
+                "AWS",
+                "Azure",
+                "Google Cloud"
+            ],
+            "softskills": [
+                "Organização",
+                "Trabalho em equipe"
+            ],
+            "experiencias": [
+                "3 anos como Especialista em Cloud na CloudExperts"
+            ],
+            "formacao": [
+                "Engenharia de Computação - UNICAMP"
+            ],
+            "idiomas": [
+                "Inglês Avançado"
+            ]
+        },
+        {
+            "id": 17,
+            "cpf": "090090090-00",
+            "senha": "SENHA456",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": [
+                "Python",
+                " Java"
+            ],
+            "softskills": [
+                "Comunicação",
+                " Proatividade"
+            ],
+            "experiencias": [
+                "Dev na amazon"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 18,
+            "cpf": "123456789-00",
+            "senha": "SENHA123",
+            "localizacao": "Rio de Janeiro",
+            "habilidades_tecnicas": [
+                "JavaScript",
+                " React"
+            ],
+            "softskills": [
+                "Trabalho em equipe",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "Front-end na Google"
+            ],
+            "formacao": [
+                "Ciência da Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 19,
+            "cpf": "987654321-00",
+            "senha": "SENHA789",
+            "localizacao": "Belo Horizonte",
+            "habilidades_tecnicas": [
+                "C++",
+                " SQL"
+            ],
+            "softskills": [
+                "Pensamento crítico",
+                " Resiliência"
+            ],
+            "experiencias": [
+                "Analista de dados na IBM"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 20,
+            "cpf": "555666777-00",
+            "senha": "SENHA321",
+            "localizacao": "Curitiba",
+            "habilidades_tecnicas": [
+                "Ruby",
+                " Rails"
+            ],
+            "softskills": [
+                "Liderança",
+                " Criatividade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Full Stack na StartupX"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 21,
+            "cpf": "222333444-00",
+            "senha": "SENHA654",
+            "localizacao": "Salvador",
+            "habilidades_tecnicas": [
+                "PHP",
+                " Laravel"
+            ],
+            "softskills": [
+                "Organização",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Back-end na WebSolutions"
+            ],
+            "formacao": [
+                "Ciência da Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 22,
+            "cpf": "111222333-00",
+            "senha": "SENHA987",
+            "localizacao": "Fortaleza",
+            "habilidades_tecnicas": [
+                "Swift",
+                " iOS Development"
+            ],
+            "softskills": [
+                "Criatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Mobile na AppCreators"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 23,
+            "cpf": "444555666-00",
+            "senha": "SENHA159",
+            "localizacao": "Manaus",
+            "habilidades_tecnicas": [
+                "Go",
+                " Kubernetes"
+            ],
+            "softskills": [
+                "Resolução de problemas",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "Engenheiro de Software na CloudNet"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 24,
+            "cpf": "777888999-00",
+            "senha": "SENHA753",
+            "localizacao": "Recife",
+            "habilidades_tecnicas": [
+                "HTML",
+                " CSS",
+                " JavaScript"
+            ],
+            "softskills": [
+                "Atenção aos detalhes",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Front-end na DesignStudio"
+            ],
+            "formacao": [
+                "Design de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 25,
+            "cpf": "000111222-00",
+            "senha": "SENHA852",
+            "localizacao": "Brasília",
+            "habilidades_tecnicas": [
+                "Perl",
+                " Shell Scripting"
+            ],
+            "softskills": [
+                "Organização",
+                " Resiliência"
+            ],
+            "experiencias": [
+                "Administrador de Sistemas na SysAdmin Co."
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 26,
+            "cpf": "333444555-00",
+            "senha": "SENHA456",
+            "localizacao": "Campinas",
+            "habilidades_tecnicas": [
+                "Python",
+                " Django"
+            ],
+            "softskills": [
+                "Proatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Web na NetApps"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 27,
+            "cpf": "666777888-00",
+            "senha": "SENHA123",
+            "localizacao": "Florianópolis",
+            "habilidades_tecnicas": [
+                "C#",
+                " .NET"
+            ],
+            "softskills": [
+                "Liderança",
+                " Criatividade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Full Stack na TechInnovators"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 28,
+            "cpf": "999000111-00",
+            "senha": "SENHA789",
+            "localizacao": "Joinville",
+            "habilidades_tecnicas": [
+                "JavaScript",
+                " Vue.js"
+            ],
+            "softskills": [
+                "Comunicação",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Front-end na WebCreators"
+            ],
+            "formacao": [
+                "Ciência da Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 29,
+            "cpf": "121212121-00",
+            "senha": "SENHA321",
+            "localizacao": "São José dos Campos",
+            "habilidades_tecnicas": [
+                "Ruby",
+                " on Rails"
+            ],
+            "softskills": [
+                "Resiliência",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Back-end na CodeFactory"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 30,
+            "cpf": "343434343-00",
+            "senha": "SENHA654",
+            "localizacao": "Niterói",
+            "habilidades_tecnicas": [
+                "PHP",
+                " Symfony"
+            ],
+            "softskills": [
+                "Organização",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Web na NetSolutions"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 31,
+            "cpf": "565656565-00",
+            "senha": "SENHA987",
+            "localizacao": "Caxias do Sul",
+            "habilidades_tecnicas": [
+                "Kotlin",
+                " Android Development"
+            ],
+            "softskills": [
+                "Criatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Mobile na AppMakers"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 32,
+            "cpf": "787878787-00",
+            "senha": "SENHA159",
+            "localizacao": "Pelotas",
+            "habilidades_tecnicas": [
+                "SQL",
+                " Database Management"
+            ],
+            "softskills": [
+                "Resolução de problemas",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "DBA na DataMasters"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 33,
+            "cpf": "909090909-00",
+            "senha": "SENHA753",
+            "localizacao": "Teresina",
+            "habilidades_tecnicas": [
+                "HTML",
+                " CSS",
+                " JavaScript"
+            ],
+            "softskills": [
+                "Atenção aos detalhes",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Front-end na DesignPros"
+            ],
+            "formacao": [
+                "Design de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 34,
+            "cpf": "101010101-00",
+            "senha": "SENHA852",
+            "localizacao": "Maceió",
+            "habilidades_tecnicas": [
+                "Bash",
+                " Shell Scripting"
+            ],
+            "softskills": [
+                "Organização",
+                " Resiliência"
+            ],
+            "experiencias": [
+                "Administrador de Sistemas na SysTech"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 35,
+            "cpf": "121314151-00",
+            "senha": "SENHA369",
+            "localizacao": "Vitória",
+            "habilidades_tecnicas": [
+                "Python",
+                " Flask"
+            ],
+            "softskills": [
+                "Proatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Web na WebApps"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 36,
+            "cpf": "161718192-00",
+            "senha": "SENHA147",
+            "localizacao": "Goiânia",
+            "habilidades_tecnicas": [
+                "C++",
+                " Qt"
+            ],
+            "softskills": [
+                "Liderança",
+                " Criatividade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Full Stack na SoftInnovators"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 37,
+            "cpf": "202122232-00",
+            "senha": "SENHA258",
+            "localizacao": "São Luís",
+            "habilidades_tecnicas": [
+                "JavaScript",
+                " Angular"
+            ],
+            "softskills": [
+                "Comunicação",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Front-end na WebMakers"
+            ],
+            "formacao": [
+                "Ciência da Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 38,
+            "cpf": "242526272-00",
+            "senha": "SENHA369",
+            "localizacao": "Aracaju",
+            "habilidades_tecnicas": [
+                "PHP",
+                " CodeIgniter"
+            ],
+            "softskills": [
+                "Organização",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Web na NetCreators"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 39,
+            "cpf": "282930313-00",
+            "senha": "SENHA147",
+            "localizacao": "Campo Grande",
+            "habilidades_tecnicas": [
+                "Objective-C",
+                " iOS Development"
+            ],
+            "softskills": [
+                "Criatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Mobile na AppDevs"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 40,
+            "cpf": "323334353-00",
+            "senha": "SENHA258",
+            "localizacao": "João Pessoa",
+            "habilidades_tecnicas": [
+                "SQL",
+                " PostgreSQL"
+            ],
+            "softskills": [
+                "Resolução de problemas",
+                " Adaptabilidade"
+            ],
+            "experiencias": [
+                "DBA na DataPros"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 41,
+            "cpf": "363738394-00",
+            "senha": "SENHA369",
+            "localizacao": "Cuiabá",
+            "habilidades_tecnicas": [
+                "HTML",
+                " CSS",
+                " JavaScript"
+            ],
+            "softskills": [
+                "Atenção aos detalhes",
+                " Comunicação"
+            ],
+            "experiencias": [
+                "Desenvolvedor Front-end na DesignExperts"
+            ],
+            "formacao": [
+                "Design de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 42,
+            "cpf": "404142434-00",
+            "senha": "SENHA147",
+            "localizacao": "Londrina",
+            "habilidades_tecnicas": [
+                "PowerShell",
+                " Shell Scripting"
+            ],
+            "softskills": [
+                "Organização",
+                " Resiliência"
+            ],
+            "experiencias": [
+                "Administrador de Sistemas na TechAdmins"
+            ],
+            "formacao": [
+                "Sistemas de Informação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 43,
+            "cpf": "444546474-00",
+            "senha": "SENHA258",
+            "localizacao": "Ribeirão Preto",
+            "habilidades_tecnicas": [
+                "Python",
+                " Pyramid"
+            ],
+            "softskills": [
+                "Proatividade",
+                " Trabalho em equipe"
+            ],
+            "experiencias": [
+                "Desenvolvedor Web na DevApps"
+            ],
+            "formacao": [
+                "Engenharia de Computação"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 44,
+            "cpf": "484950515-00",
+            "senha": "SENHA369",
+            "localizacao": "São Carlos",
+            "habilidades_tecnicas": [
+                "C",
+                " Embedded Systems"
+            ],
+            "softskills": [
+                "Liderança",
+                " Criatividade"
+            ],
+            "experiencias": [
+                "Desenvolvedor Full Stack na SoftDevs"
+            ],
+            "formacao": [
+                "Engenharia de Software"
+            ],
+            "idiomas": [
+                "Inglês"
+            ]
+        },
+        {
+            "id": 45,
+            "cpf": "505152535-00",
+            "senha": "SENHA741",
+            "localizacao": "Belo Horizonte",
+            "habilidades_tecnicas": ["Python", "FastAPI"],
+            "softskills": ["Proatividade", "Comunicação"],
+            "experiencias": ["Desenvolvedor Web na TechLabs"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 46,
+            "cpf": "545556575-00",
+            "senha": "SENHA852",
+            "localizacao": "Porto Alegre",
+            "habilidades_tecnicas": ["JavaScript", "React", "Node.js"],
+            "softskills": ["Criatividade", "Trabalho em equipe"],
+            "experiencias": ["Desenvolvedor Full Stack na WebSolutions"],
+            "formacao": ["Ciência da Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 47,
+            "cpf": "585960616-00",
+            "senha": "SENHA963",
+            "localizacao": "Curitiba",
+            "habilidades_tecnicas": ["Java", "Spring Boot", "SQL"],
+            "softskills": ["Organização", "Resiliência"],
+            "experiencias": ["Engenheiro de Software na DevMasters"],
+            "formacao": ["Engenharia de Software"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 48,
+            "cpf": "626364656-00",
+            "senha": "SENHA147",
+            "localizacao": "São Paulo",
+            "habilidades_tecnicas": ["Python", "Django", "AWS"],
+            "softskills": ["Liderança", "Proatividade"],
+            "experiencias": ["Desenvolvedor Web na CloudTech"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 49,
+            "cpf": "666768696-00",
+            "senha": "SENHA258",
+            "localizacao": "Rio de Janeiro",
+            "habilidades_tecnicas": ["C#", ".NET", "Azure"],
+            "softskills": ["Criatividade", "Trabalho em equipe"],
+            "experiencias": ["Desenvolvedor Full Stack na TechInnovators"],
+            "formacao": ["Engenharia de Software"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 50,
+            "cpf": "707172737-00",
+            "senha": "SENHA369",
+            "localizacao": "Florianópolis",
+            "habilidades_tecnicas": ["Unity", "C#", "Blender"],
+            "softskills": ["Criatividade", "Comunicação"],
+            "experiencias": ["Desenvolvedor de Jogos na GameStudio"],
+            "formacao": ["Design de Jogos"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 51,
+            "cpf": "747576777-00",
+            "senha": "SENHA741",
+            "localizacao": "Recife",
+            "habilidades_tecnicas": ["AWS", "Docker", "Kubernetes"],
+            "softskills": ["Organização", "Resiliência"],
+            "experiencias": ["Engenheiro DevOps na CloudExperts"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 52,
+            "cpf": "787980818-00",
+            "senha": "SENHA852",
+            "localizacao": "Salvador",
+            "habilidades_tecnicas": ["Kotlin", "Android Development", "Firebase"],
+            "softskills": ["Trabalho em equipe", "Proatividade"],
+            "experiencias": ["Desenvolvedor Mobile na AppMakers"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 53,
+            "cpf": "828384858-00",
+            "senha": "SENHA963",
+            "localizacao": "Fortaleza",
+            "habilidades_tecnicas": ["Swift", "iOS Development", "CoreData"],
+            "softskills": ["Criatividade", "Comunicação"],
+            "experiencias": ["Desenvolvedor Mobile na AppCreators"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 54,
+            "cpf": "868788898-00",
+            "senha": "SENHA147",
+            "localizacao": "Brasília",
+            "habilidades_tecnicas": ["Segurança de Redes", "Python", "Criptografia"],
+            "softskills": ["Atenção aos detalhes", "Resiliência"],
+            "experiencias": ["Engenheiro de Segurança na SecureTech"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 55,
+            "cpf": "909192939-00",
+            "senha": "SENHA258",
+            "localizacao": "Manaus",
+            "habilidades_tecnicas": ["Go", "Docker", "Kubernetes"],
+            "softskills": ["Adaptabilidade", "Resolução de problemas"],
+            "experiencias": ["Engenheiro de Software na CloudNet"],
+            "formacao": ["Engenharia de Software"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 56,
+            "cpf": "949596979-00",
+            "senha": "SENHA369",
+            "localizacao": "São José dos Campos",
+            "habilidades_tecnicas": ["Ruby", "Rails", "PostgreSQL"],
+            "softskills": ["Trabalho em equipe", "Resiliência"],
+            "experiencias": ["Desenvolvedor Back-end na CodeFactory"],
+            "formacao": ["Engenharia de Software"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 57,
+            "cpf": "989900010-00",
+            "senha": "SENHA741",
+            "localizacao": "Campinas",
+            "habilidades_tecnicas": ["AWS", "Azure", "Google Cloud"],
+            "softskills": ["Organização", "Proatividade"],
+            "experiencias": ["Especialista em Cloud na CloudExperts"],
+            "formacao": ["Engenharia de Computação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 58,
+            "cpf": "020202030-00",
+            "senha": "SENHA852",
+            "localizacao": "João Pessoa",
+            "habilidades_tecnicas": ["SQL", "PostgreSQL", "NoSQL"],
+            "softskills": ["Análise crítica", "Resolução de problemas"],
+            "experiencias": ["DBA na DataPros"],
+            "formacao": ["Sistemas de Informação"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 59,
+            "cpf": "040404050-00",
+            "senha": "SENHA963",
+            "localizacao": "Teresina",
+            "habilidades_tecnicas": ["HTML", "CSS", "JavaScript", "React"],
+            "softskills": ["Comunicação", "Atenção aos detalhes"],
+            "experiencias": ["Desenvolvedor Front-end na DesignPros"],
+            "formacao": ["Design de Software"],
+            "idiomas": ["Inglês"]
+        },
+        {
+            "id": 60,
+            "cpf": "060606070-00",
+            "senha": "SENHA147",
+            "localizacao": "Maceió",
+            "habilidades_tecnicas": ["Bash", "Shell Scripting", "Python"],
+            "softskills": ["Organização", "Resiliência"],
+            "experiencias": ["Administrador de Sistemas na SysTech"],
+            "formacao": ["Sistemas de Informação"],
+            "idiomas": ["Inglês"]
+    }
+    ]
+}
