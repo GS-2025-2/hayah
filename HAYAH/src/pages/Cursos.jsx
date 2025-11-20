@@ -32,14 +32,24 @@ export default function Cursos() {
       </header>
 
       <div className="max-w-6xl mx-auto px-6 py-12">
-        <h1 className="text-2xl md:text-3xl font-bold text-[#0a2e1a] mb-8 text-center">Melhore seu currículo!</h1>
+        <h1 className="text-2xl md:text-3xl font-bold text-[#0a2e1a] mb-8 text-center dark:text-[#dfd4bf]">Melhore seu currículo!</h1>
 
         <CardsCursos courses={sampleCourses} />
 
-        <div className="mt-8 flex items-center justify-center gap-4 text-[#0a2e1a]">
-          <button className="p-2 rounded border border-[#0a2e1a]">&lt;</button>
-          <div>1</div>
-          <button className="p-2 rounded border border-[#0a2e1a]">&gt;</button>
+        <div className="mt-8 flex items-center justify-center gap-4 text-[#0a2e1a] dark:text-[#dfd4bf]">
+          <button
+            className="p-2 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] dark:text-[#dfd4bf] transition-colors hover:bg-[#e9e0d0] dark:hover:bg-[#12302b]"
+            aria-label="Anterior"
+          >
+            &lt;
+          </button>
+          <div className="font-medium text-[#0a2e1a] dark:text-[#dfd4bf]">1</div>
+          <button
+            className="p-2 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] dark:text-[#dfd4bf] transition-colors hover:bg-[#e9e0d0] dark:hover:bg-[#12302b]"
+            aria-label="Próxima"
+          >
+            &gt;
+          </button>
         </div>
       </div>
       <Footer />
