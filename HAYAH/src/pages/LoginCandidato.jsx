@@ -65,10 +65,12 @@ export default function LoginCandidato() {
                         type="text"
                         id="cpf"
                         name="cpf"
+                        value={cpf}
+                        onChange={(e) => setCpf(e.target.value)}
                         className="rounded px-4 py-2 focus:outline-none focus:ring 
-                          bg-transparent text-[#091c1a] border-[#091c1a] 
-                          dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
-                          border-4"
+                        bg-transparent text-[#091c1a] border-[#091c1a] 
+                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] 
+                        border-4"
                       />
                   <label className="text-lg font-medium dark:text-[#dfd4bf]" htmlFor="senha">
                     Senha:
