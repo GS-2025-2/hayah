@@ -92,7 +92,6 @@ export default function LoginCandidato() {
                   </p>
                 )}
 
-                    {/* Link de recuperação de senha */}
                     <div className="text-right">
                         <a
                         href="#"

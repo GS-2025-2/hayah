@@ -71,6 +71,188 @@
                 "Back-end",
                 "Automação"
             ]
+        },
+        {
+            "id": 3,
+            "cpf": "222.222.222-00",
+            "senha": "teste",
+            "cargo": "teste",
+            "localizacao": "teste",
+            "habilidades_tecnicas": [
+                "teste",
+                " teste"
+            ],
+            "softskills": [
+                "teste",
+                " teste"
+            ],
+            "experiencias": [
+                "teste",
+                " teste"
+            ],
+            "formacao": [
+                "teste",
+                " teste"
+            ],
+            "projetos": [
+                "teste",
+                " teste"
+            ],
+            "certificacoes": [
+                "teste"
+            ],
+            "idiomas": [
+                "teste"
+            ],
+            "areainteresses": [
+                "teste"
+            ]
+        },
+        {
+            "id": 4,
+            "cpf": "",
+            "senha": "",
+            "localizacao": "",
+            "habilidades_tecnicas": [
+                ""
+            ],
+            "softskills": [
+                ""
+            ],
+            "experiencias": [
+                ""
+            ],
+            "formacao": [
+                ""
+            ],
+            "projetos": [
+                ""
+            ],
+            "certificacoes": [
+                ""
+            ],
+            "idiomas": [
+                ""
+            ],
+            "areainteresses": [
+                ""
+            ]
+        },
+        {
+            "id": 5,
+            "cpf": "888888888-88",
+            "senha": "teste",
+            "localizacao": "teste",
+            "habilidades_tecnicas": [
+                "teste"
+            ],
+            "softskills": [
+                "teste"
+            ],
+            "experiencias": [
+                "teste"
+            ],
+            "formacao": [
+                "teste"
+            ],
+            "projetos": [
+                ""
+            ],
+            "certificacoes": [
+                ""
+            ],
+            "idiomas": [
+                "teste"
+            ],
+            "areainteresses": [
+                ""
+            ]
+        },
+        {
+            "id": 6,
+            "cpf": "555555555-55",
+            "senha": "teste",
+            "localizacao": "teste, teste",
+            "habilidades_tecnicas": [
+                "teste",
+                " teste"
+            ],
+            "softskills": [
+                "teste",
+                " teee"
+            ],
+            "experiencias": [
+                "tee"
+            ],
+            "formacao": [
+                "teste"
+            ],
+            "idiomas": [
+                "teste"
+            ]
+        },
+        {
+            "id": 7,
+            "cpf": "777777777-77",
+            "senha": "teste",
+            "localizacao": "",
+            "habilidades_tecnicas": [
+                ""
+            ],
+            "softskills": [
+                ""
+            ],
+            "experiencias": [
+                ""
+            ],
+            "formacao": [
+                ""
+            ],
+            "idiomas": [
+                ""
+            ]
+        },
+        {
+            "id": 8,
+            "cpf": "111111111-11",
+            "senha": "teste",
+            "localizacao": "",
+            "habilidades_tecnicas": [
+                ""
+            ],
+            "softskills": [
+                ""
+            ],
+            "experiencias": [
+                ""
+            ],
+            "formacao": [
+                ""
+            ],
+            "idiomas": [
+                ""
+            ]
+        },
+        {
+            "id": 9,
+            "cpf": "222222222-11",
+            "senha": "teste",
+            "localizacao": "",
+            "habilidades_tecnicas": [
+                ""
+            ],
+            "softskills": [
+                ""
+            ],
+            "experiencias": [
+                ""
+            ],
+            "formacao": [
+                ""
+            ],
+            "idiomas": [
+                ""
+            ]
         }
     ]
 }

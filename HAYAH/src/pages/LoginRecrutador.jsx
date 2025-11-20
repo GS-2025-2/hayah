@@ -47,7 +47,6 @@ export default function LoginCandidato() {
     >
       <Navbar />
 
-      {/* Conteúdo centralizado */}
       <div className="flex flex-col items-center justify-center pt-45 px-6">
         <div className="container mx-auto text-center mb-8">
           <h1 className="text-5xl font-bold text-[#091c1a] dark:text-[#dfd4bf]">
@@ -92,8 +91,6 @@ export default function LoginCandidato() {
                   </p>
                 )}
 
-
-                    {/* Link de recuperação de senha */}
                     <div className="text-right">
                         <a
                         href="#"
