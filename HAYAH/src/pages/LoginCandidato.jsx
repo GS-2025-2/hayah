@@ -31,7 +31,7 @@ export default function LoginCandidato() {
         setErro(data.mensagem);
         return;
       }
-      window.location.href = "/Candidato";  
+      window.location.href = "/Candidatura";  
 
     } catch (error) {
       setErro("Erro de conexão com servidor");
@@ -57,7 +57,7 @@ export default function LoginCandidato() {
         </div>
 
         <div className="container pt-15 max-w-md mx-auto mb-30">
-            <form className="flex flex-col gap-4 w-full" action="login">
+            <form className="flex flex-col gap-4 w-full" onSubmit={handleLogin}>
                     <label className="text-lg font-medium dark:text-[#dfd4bf]" htmlFor="cpf">
                         CPF:
                     </label>
