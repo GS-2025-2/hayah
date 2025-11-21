@@ -26,8 +26,11 @@ Integração via Flask entre frontend e backend
 ## Cadastro de Candidatos
 O usuário preenche suas informações profissionais na página de criar conta. O cadastro do usuário é salvo no JSON junto com as suas informações. 
 
-## Login
+## Login de candidato
 O usuário será redirecionado para a página de login após fazer o cadastro e deverá colocar as mesmas informações fornecidas antes.
+
+## Login de recrutador
+O recrutador tem login diferente, sendo criado apenas pela plataforma.
  
 # 🏗️ Instalação e Execução do Projeto
 Abra o terminal e digite: </br>
