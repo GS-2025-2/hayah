@@ -1,6 +1,6 @@
 # Hayah – Plataforma de Recrutamento com Foco em Diversidade e Inclusão
 
-O Hayah é uma plataforma de recrutamento desenvolvida com o objetivo de promover processos seletivos mais justos, inclusivos e imparciais. Para isso, o sistema oculta informações sensíveis dos candidatos — como foto, nome e gênero — garantindo que a análise do perfil seja feita com foco nas competências, experiências e qualificações.
+O Hayah é uma plataforma de recrutamento desenvolvida com o objetivo de promover processos seletivos mais justos, inclusivos e imparciais. Para isso, o sistema oculta informações sensíveis dos candidatos, como foto, nome e gênero, garantindo que a análise do perfil seja feita com foco nas competências, experiências e qualificações.
 
 # 🚀 Tecnologias Utilizadas
 ## Frontend:
