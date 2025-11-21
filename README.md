@@ -30,7 +30,7 @@ O usuário preenche suas informações profissionais na página de criar conta. 
 O usuário será redirecionado para a página de login após fazer o cadastro e deverá colocar as mesmas informações fornecidas antes.
 
 ## Login de recrutador
-O recrutador tem login diferente, sendo criado apenas pela plataforma.
+O recrutador tem login diferente, sendo criado apenas pela plataforma. O acesso de recrutador está guardado no arquivo registro_recrutadores.json
  
 # 🏗️ Instalação e Execução do Projeto
 Abra o terminal e digite: </br>
