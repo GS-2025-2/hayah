@@ -6,7 +6,7 @@
     import Cursos from '../pages/Cursos.jsx'
     import LoginCandidato from '../pages/LoginCandidato.jsx'
     import LoginRecrutador from '../pages/LoginRecrutador.jsx'
-    import Perfil from '../pages/Perfil.jsx'
+    import Vagas from '../pages/Vagas.jsx'
     import Recrutador from '../pages/Recrutador.jsx'
 
     export const router = createBrowserRouter([
@@ -20,7 +20,7 @@
       { path: 'cursos', element: <Cursos />},
       { path: 'loginCandidato', element: <LoginCandidato />},
       { path: 'loginRecrutador', element: <LoginRecrutador />},
-      { path: "perfil", element: <Perfil /> },
+      { path: "vagas", element: <Vagas /> },
       { path: 'recrutador', element: <Recrutador />},
     ],
       }

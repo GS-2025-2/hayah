@@ -54,7 +54,7 @@ export default function NavBar() {
           <li className="flex items-center gap-8">
             <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Propósito</Link>
             <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Cursos</Link>
-            <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Vagas</Link>
+           
 
             {/* Ícone de perfil com menu suspenso */}
             <div className="relative">
