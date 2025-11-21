@@ -4,7 +4,7 @@
 
 O Hayah é uma plataforma de recrutamento desenvolvida com o objetivo de promover processos seletivos mais justos, inclusivos e imparciais. Para isso, o sistema oculta informações sensíveis dos candidatos, como foto, nome e gênero, garantindo que a análise do perfil seja feita com foco nas competências, experiências e qualificações.
 
-#Video de Apresentação
+# Video de Apresentação
 
 https://youtu.be/2H4eNdrBcUc?si=SlOe0z1VSQu9t9YP
 
