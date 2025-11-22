@@ -2,11 +2,11 @@ import React from "react";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import CardsCandidato from "../components/CardsCandidato";
+import cortexLogo from "../assets/cortex.png";
 
 const sampleApplications = [
-    { id: 1, company: 'BTA', logo: '', title: 'Desenvolvedor Senior React', status: 'Entrevista com RH', closingDate: '20/12/2025', canSchedule: true, finished: false, url: '#' },
-    { id: 2, company: 'Unibave', logo: '', title: 'Coordenador de TI', status: 'Perfil em analise', closingDate: '10/12/2025', canSchedule: false, finished: false, url: '#' },
-    { id: 3, company: 'Outros', logo: '', title: 'Analista', status: 'Finalizado', closingDate: '01/10/2025', canSchedule: false, finished: true, url: '#' }
+    { id: 1, company: 'Cortex', logo: cortexLogo, title: 'Analista de Fluxos e Processos', status: 'Entrevista com RH', closingDate: '20/12/2025', canSchedule: true, finished: false, url: '#' },
+    { id: 2, company: 'Cortex', logo: cortexLogo, title: 'Analista de Fluxos e Processos', status: 'Finalizada', closingDate: '20/12/2025', canSchedule: true, finished: false, url: '#' },
 ];
 
 export default function Candidaturas() {

@@ -1,10 +1,40 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 export default function CardsCandidato({ applications = [] }) {
   const [tab, setTab] = useState("em")
+  // local copy so we can remove items on "Desistir"
+  const [items, setItems] = useState(applications)
 
-  const shown = applications.filter(a => tab === 'em' ? !a.finished : a.finished)
+  // keep local items in sync if prop changes
+  useEffect(() => setItems(applications), [applications])
+
+  // Show applications depending on selected tab.
+  // - "em" (Em Andamento): show items that are not finished
+  // - "fin" (Finalizadas): show items that are finished OR have a status that implies finalization
+  const finishedStatusRegex = /finaliz|encerr|conclu|rejeit|desist|cancel/i
+  const shown = items.filter(a => {
+    if (tab === 'em') return a.finished !== true
+    // finalizadas: explicitly finished OR status text that matches common finalization words
+    return a.finished === true || (a.status && finishedStatusRegex.test(a.status))
+  })
+
+  // confirmation modal state
+  const [confirm, setConfirm] = useState({ open: false, id: null })
+
+  function openConfirm(id) {
+    setConfirm({ open: true, id })
+  }
+
+  function closeConfirm() {
+    setConfirm({ open: false, id: null })
+  }
+
+  function confirmDesist() {
+    if (confirm.id == null) return closeConfirm()
+    setItems(prev => prev.filter(it => it.id !== confirm.id))
+    closeConfirm()
+  }
 
   return (
     <section className="max-w-6xl mx-auto px-6 py-12">
@@ -38,13 +68,16 @@ export default function CardsCandidato({ applications = [] }) {
                 </div>
 
                 <div className="mt-4 flex items-center gap-3">
-                  <button className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf] bg-transparent hover:bg-[#e9e0d0] dark:hover:bg-[#12302b]">Desistir</button>
+                  <button
+                    onClick={() => openConfirm(app.id)}
+                    className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf] bg-transparent hover:bg-[#e9e0d0] dark:hover:bg-[#12302b]"
+                  >
+                    Desistir
+                  </button>
 
-                  {app.canSchedule ? (
-                    <button className="px-3 py-1 rounded bg-[#123a33] text-white">Agendar</button>
-                  ) : (
-                    <Link to={app.url || '#'} className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf]">Veja a Vaga</Link>
-                  )}
+                  <Link to={app.url || '#'} className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf]">
+                    Veja a Vaga
+                  </Link>
                 </div>
               </div>
             </article>
@@ -55,6 +88,22 @@ export default function CardsCandidato({ applications = [] }) {
           )}
         </div>
       </div>
+
+      {confirm.open && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center">
+          <div className="absolute inset-0 bg-black opacity-40" onClick={closeConfirm} />
+
+          <div className="relative bg-white dark:bg-[#07110f] rounded-lg p-6 w-11/12 max-w-md shadow-lg border dark:border-[#dfd4bf]">
+            <h3 className="text-lg font-semibold text-[#0a2e1a] dark:text-[#dfd4bf]">Confirmar</h3>
+            <p className="mt-3 text-sm text-[#123a33] dark:text-[#dfd4bf]">Tem certeza que deseja desistir desta candidatura? Esta ação removerá a candidatura da sua lista.</p>
+
+            <div className="mt-5 flex justify-end gap-3">
+              <button onClick={closeConfirm} className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf] bg-transparent">Cancelar</button>
+              <button onClick={confirmDesist} className="px-3 py-1 rounded bg-red-600 text-white">Sim, desistir</button>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }
