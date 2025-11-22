@@ -48,3 +48,15 @@ Abra o terminal novamente </br>
 pip install flask flask-cors </br>
 Rode o programa app.py na pasta backend </br>
 O programa estará rodando!
+
+# Links
+Deploy - https://hayah-beryl.vercel.app/
+Repositório - https://github.com/GS-2025-2/hayah.git
+
+# Integrantes do Grupo
+ 
+Clara Barboza Costa – RM561490 
+
+Pedro Henrique Lamin Rodrigues – RM566379 
+
+Tomás Antonio Braga Cantuária RM563295 
