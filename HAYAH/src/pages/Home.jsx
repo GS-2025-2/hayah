@@ -30,10 +30,15 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center md:justify-end">
-            <div className="w-full max-w-md aspect-video bg-[#f3efe6] dark:bg-[#071716] rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
-              <div className="w-400 h-500 bg-black/80 rounded flex items-center justify-center">
-                <div className="text-white text-3xl">▶</div>
-              </div>
+            <div className="w-full max-w-md aspect-video bg-[#f3efe6] dark:bg-[#071716] rounded-lg shadow-lg overflow-hidden">
+              <iframe
+                className="w-full h-full"
+                src="https://www.youtube.com/embed/2H4eNdrBcUc"
+                title="Vídeo Hayah"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
