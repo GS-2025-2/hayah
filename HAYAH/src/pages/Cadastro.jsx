@@ -84,7 +84,7 @@ export default function Cadastro() {
               placeholder="CPF"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
+                        dark:bg-transparent dark:text-[#16453F] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
               value={form.cpf}
               onChange={handleChange}
@@ -95,7 +95,7 @@ export default function Cadastro() {
               placeholder="Senha"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
+                        dark:bg-transparent dark:text-[#16453F] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
               value={form.senha}
               onChange={handleChange}
@@ -107,7 +107,7 @@ export default function Cadastro() {
               placeholder="Endereço"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
+                        dark:bg-transparent dark:text-[#16453F] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
               value={form.localizacao}
               onChange={handleChange}
@@ -118,7 +118,7 @@ export default function Cadastro() {
               name="idiomas"
               className="rounded px-4 py-2 focus:outline-none focus:ring 
                         bg-transparent text-[#091c1a] border-[#091c1a] 
-                        dark:bg-transparent dark:text-[#dfd4bf] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
+                        dark:bg-transparent dark:text-[#16453F] dark:border-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]
                         border-4"
               value={form.idiomas}
               onChange={handleChange}
@@ -129,7 +129,7 @@ export default function Cadastro() {
             placeholder="Habilidades Técnicas"
             name="habilidades_tecnicas"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]"
             value={form.habilidades_tecnicas}
             onChange={handleChange}
           />
@@ -137,7 +137,7 @@ export default function Cadastro() {
             placeholder="Softskills"
             name="softskills"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]"
             value={form.softskills}
             onChange={handleChange}
           />
@@ -145,7 +145,7 @@ export default function Cadastro() {
             placeholder="Experiências"
             name="experiencias"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]"
             value={form.experiencias}
             onChange={handleChange}
           />
@@ -153,7 +153,7 @@ export default function Cadastro() {
             placeholder="Formação"
             name="formacao"
             className="w-full h-24 rounded px-4 py-2 border-4 border-[#091c1a] bg-transparent text-[#091c1a] focus:outline-none focus:ring 
-           dark:border-[#16453F] dark:bg-transparent dark:text-[#dfd4bf] placeholder-[#16453F] dark:placeholder-[#132e2a]"
+           dark:border-[#16453F] dark:bg-transparent dark:text-[#16453F] placeholder-[#16453F] dark:placeholder-[#132e2a]"
             value={form.formacao}
             onChange={handleChange}
           />

@@ -10,6 +10,13 @@ const sampleApplications = [
 ];
 
 export default function Candidaturas() {
+  return (
+    <div>
+        <Navbar />
+      <h1>Candidaturas</h1>
+        <Footer />
+    </div>
+  );
     return (
         <div className="min-h-screen bg-[#dfd4bf] dark:bg-[#091c1a] transition-colors duration-700 relative text-[#091c1a] dark:text-[#dfd4bf]">
             <Navbar />
