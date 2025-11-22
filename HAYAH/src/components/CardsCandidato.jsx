@@ -68,7 +68,7 @@ export default function CardsCandidato({ applications = [] }) {
                     Desistir
                   </button>
 
-                  <Link to={app.url || '#'} className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf]">
+                  <Link to={app.url || '/vagas'} className="px-3 py-1 rounded border border-[#0a2e1a] dark:border-[#dfd4bf] text-[#0a2e1a] dark:text-[#dfd4bf]">
                     Veja a Vaga
                   </Link>
                 </div>
