@@ -31,12 +31,10 @@ const sampleData = [
 ];
 
 export default function Recrutador() {
-  // Filters state
   const [cityFilter, setCityFilter] = useState("");
   const [jobFilter, setJobFilter] = useState("");
   const [techFilter, setTechFilter] = useState("");
 
-  // derive unique options from sampleData
   const { cities, jobs, techs } = useMemo(() => {
     const citySet = new Set();
     const jobSet = new Set();
@@ -54,7 +52,6 @@ export default function Recrutador() {
     return { cities: Array.from(citySet).sort(), jobs: Array.from(jobSet).sort(), techs: Array.from(techSet).sort() };
   }, []);
 
-  // apply filters to sampleData
   const filteredGroups = useMemo(() => {
     const techLower = techFilter.trim().toLowerCase();
 
@@ -125,8 +122,6 @@ export default function Recrutador() {
               </button>
             </div>
           </div>
-
-
 
           {filteredGroups.length === 0 ? (
             <p className="text-center text-[#123a33] dark:text-[#dfd4bf]">Nenhum candidato encontrado com esses filtros.</p>

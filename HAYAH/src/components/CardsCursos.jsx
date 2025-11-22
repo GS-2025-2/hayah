@@ -4,13 +4,11 @@ export default function CardsCursos({ courses = [] }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
       {courses.map((c) => {
-        // compute container height: prefer c.imageStyle.height if provided, else default
-        const defaultImgHeight = '9rem'; // ~ h-36
+        const defaultImgHeight = '9rem';
         const containerHeight = (c.imageStyle && c.imageStyle.height) ? c.imageStyle.height : defaultImgHeight;
 
         return (
           <article key={c.id} className="bg-[#dfd4bf] border-2 border-[#0a2e1a] rounded-lg overflow-hidden shadow-sm flex flex-col">
-            {/* Image area (full width). If course provides imageStyle it will be applied to the <img>. */}
             {c.image ? (
               <div className="w-full flex items-center justify-center bg-transparent" style={{ height: containerHeight }}>
                 <img

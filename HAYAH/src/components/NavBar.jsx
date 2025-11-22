@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { FaUser, FaSun, FaMoon } from "react-icons/fa";
 
-// Logos
 import logoWhite from '../assets/logo_whitemode.png';
 import logoDark from '../assets/logo_darkmode.png';
 
@@ -29,6 +28,9 @@ export default function NavBar() {
     } catch (e) {}
   }, [dark]);
 
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <nav
       aria-label="Main navigation"
@@ -36,7 +38,6 @@ export default function NavBar() {
       style={{ color: '#dfd4bf' }}
     >
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-        {/* Logo */}
         <Link to="/" className="flex items-center">
           <img
             src={logoDark}
@@ -46,17 +47,46 @@ export default function NavBar() {
           />
         </Link>
 
-        {/* Menu Desktop */}
         <ul className="flex gap-8 items-center relative">
           <li>
             <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Home</Link>
           </li>
           <li className="flex items-center gap-8">
-            <Link to="/" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Propósito</Link>
-            <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Cursos</Link>
-           
+            <button
+              onClick={() => {
+                try {
+                  const isHome = location.pathname === "/" || location.pathname === "";
+                  if (isHome) {
+                    const el = document.getElementById('proposito');
+                    if (el) {
+                      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      return;
+                    }
+                  }
 
-            {/* Ícone de perfil com menu suspenso */}
+                  navigate('/');
+
+                  setTimeout(() => {
+                    const el = document.getElementById('proposito');
+                    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    else {
+                      setTimeout(() => {
+                        const e2 = document.getElementById('proposito');
+                        if (e2) e2.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                      }, 250);
+                    }
+                  }, 120);
+                } catch (e) {
+                  navigate('/');
+                }
+              }}
+              style={{ color: '#dfd4bf' }}
+              className="hover:opacity-80"
+            >
+              Propósito
+            </button>
+            <Link to="/cursos" style={{ color: '#dfd4bf' }} className="hover:opacity-80">Cursos</Link>
+
             <div className="relative">
               <button
                 onClick={() => setShowProfileMenu((prev) => !prev)}
@@ -85,7 +115,6 @@ export default function NavBar() {
               )}
             </div>
 
-            {/* Botão de tema */}
             <button
               onClick={() => setDark((d) => !d)}
               aria-label={dark ? "Ativar modo claro" : "Ativar modo escuro"}

@@ -3,23 +3,16 @@ import { Link } from "react-router-dom";
 
 export default function CardsCandidato({ applications = [] }) {
   const [tab, setTab] = useState("em")
-  // local copy so we can remove items on "Desistir"
   const [items, setItems] = useState(applications)
 
-  // keep local items in sync if prop changes
   useEffect(() => setItems(applications), [applications])
 
-  // Show applications depending on selected tab.
-  // - "em" (Em Andamento): show items that are not finished
-  // - "fin" (Finalizadas): show items that are finished OR have a status that implies finalization
   const finishedStatusRegex = /finaliz|encerr|conclu|rejeit|desist|cancel/i
   const shown = items.filter(a => {
     if (tab === 'em') return a.finished !== true
-    // finalizadas: explicitly finished OR status text that matches common finalization words
     return a.finished === true || (a.status && finishedStatusRegex.test(a.status))
   })
 
-  // confirmation modal state
   const [confirm, setConfirm] = useState({ open: false, id: null })
 
   function openConfirm(id) {
