@@ -5,21 +5,17 @@ export default function CandidateCard({ name, cpf, details }) {
   const [messageText, setMessageText] = useState("");
 
   function handleRecommend() {
-    // Open mail client to recommend the professional (pre-fill subject)
     const subject = encodeURIComponent(`Recomendação: ${name}`);
     const body = encodeURIComponent(`Gostaria de recomendar o(a) ${name} para oportunidades na sua empresa.\n\nCargo: ${details?.job || "-"}\nCPF: ${cpf}`);
     window.location.href = `mailto:recrutamento@empresa.com?subject=${subject}&body=${body}`;
   }
 
   function handleSendMessage() {
-    // open modal
     setOpenMessage(true);
   }
 
   function submitMessage() {
-    // For demo: just log and close modal. Replace with API call when available.
     console.log(`Mensagem para ${name}:`, messageText);
-    // show simple feedback
     alert("Mensagem enviada com sucesso (demo).");
     setMessageText("");
     setOpenMessage(false);
@@ -42,7 +38,6 @@ export default function CandidateCard({ name, cpf, details }) {
         <p><strong>Experiência:</strong> {details?.experience || "-"}</p>
       </div>
 
-      {/* Action buttons shown on hover */}
       <div className="absolute bottom-3 left-3 right-3 opacity-0 group-hover:opacity-100 group-focus-within:opacity-100 transition-opacity duration-300 flex gap-2 justify-between">
         <button
           onClick={handleRecommend}
@@ -61,7 +56,6 @@ export default function CandidateCard({ name, cpf, details }) {
         </button>
       </div>
 
-      {/* Message modal (simple) */}
       {openMessage && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
           <div className="absolute inset-0 bg-black/40" onClick={() => setOpenMessage(false)} aria-hidden />

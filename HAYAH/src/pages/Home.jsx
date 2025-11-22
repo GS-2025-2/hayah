@@ -11,7 +11,6 @@ export default function Home() {
     <div className="min-h-screen bg-[#dfd4bf] dark:bg-[#091c1a] transition-colors duration-700 relative text-[#091c1a] dark:text-[#dfd4bf]">
       <Navbar />
 
-      {/* Top pale header area */}
       <header className="bg-[#e9e0d0]">
         <div className="max-w-6xl mx-auto px-6 py-8 flex items-center justify-end">
           <div className="flex items-center gap-4"></div>
@@ -19,7 +18,6 @@ export default function Home() {
         <div className="h-1 bg-[#dfd4bf]" />
       </header>
 
-      {/* Hero: left text + right video */}
       <section className="max-w-6xl mx-auto px-3 pt-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
@@ -49,10 +47,7 @@ export default function Home() {
           className="w-full h-20 block"
         />
       </div>
-
-      {/* Two green full-bleed sections separated by a beige rectangle */}
       <section className="mt-16">
-        {/* Top green area */}
         <div className="bg-[#0a2e1a] text-[#dfd4bf]">
           <div className="max-w-6xl mx-auto px-3 py-24">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
@@ -84,15 +79,13 @@ export default function Home() {
           style={{ transform: "rotate(180deg)" }}
         />
       </div>
-
-        {/* Bottom green area */}
         <div className="bg-[#dfd4bf] dark:bg-[#091c1a] text-[#091c1a] dark:text-[#dfd4bf]">
           <div className="max-w-6xl mx-auto px-3 py-30">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
+              <div id="proposito" className="grid grid-cols-1 md:grid-cols-2 gap-30 items-center">
               <div>
-                <h2 className="text-3xl font-bold">Propósito</h2>
+                <h2 className="text-3xl font-bold">Nosso Propósito</h2>
                 <p className="mt-4 leading-relaxed">
-                  Conteúdo complementar que segue a mesma identidade visual verde.
+                  Nosso propósito é construir um processo de recrutamento verdadeiramente justo, onde oportunidades são definidas por talento, não por aparência. Acreditamos que remover vieses e ampliar o acesso à capacitação transforma vidas e fortalece empresas. Por isso, unimos tecnologia, anonimização e educação para conectar pessoas e vagas de maneira ética, inclusiva e baseada em competências reais.
                 </p>
               </div>
               <div className="flex justify-center md:justify-end">
