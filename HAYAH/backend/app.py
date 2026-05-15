@@ -195,4 +195,5 @@ def cadastro():
 if __name__ == "__main__":
     carregar_perfil()
     carregar_recrutadores()
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)

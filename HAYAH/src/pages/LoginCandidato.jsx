@@ -17,7 +17,7 @@ export default function LoginCandidato() {
     setErro("");
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/loginCandidato", {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/loginCandidato`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
