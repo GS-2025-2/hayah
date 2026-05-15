@@ -50,7 +50,7 @@ Rode o programa app.py na pasta backend </br>
 O programa estará rodando!
 
 # Links
-Deploy - https://hayah-beryl.vercel.app/
+Deploy - https://hayah-one.vercel.app/
 Repositório - https://github.com/GS-2025-2/hayah.git
 
 # Integrantes do Grupo
